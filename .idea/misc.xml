@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.26197916666666665" />
+        <entry key="../../../../layout/custom_preview.xml" value="0.2601851851851852" />
+        <entry key="app/src/main/res/drawable/layout_button.xml" value="0.1398148148148148" />
+        <entry key="app/src/main/res/drawable/layout_button_night.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/layout_cancel.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/layout_create.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/layout_displaybutton.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/drawable/layout_select.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/drawable/layout_selected.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/drawable/layout_send.xml" value="0.2388888888888889" />
+        <entry key="app/src/main/res/drawable/layout_text.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/drawable/layout_textbckg.xml" value="0.14629629629629629" />
+        <entry key="app/src/main/res/drawable/layout_texttime.xml" value="0.14351851851851852" />
+        <entry key="app/src/main/res/layout/activity_dark.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/activity_launch.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/activity_light.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/changer_theme.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/changeto_dark.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/changeto_light.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/dark_mode_shortcut.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/fragment_changer.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.4109375" />
+        <entry key="app/src/main/res/layout/fragment_filter.xml" value="0.4109375" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.4109375" />
+        <entry key="app/src/main/res/layout/fragment_scheduler.xml" value="0.4109375" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.4109375" />
+        <entry key="app/src/main/res/layout/fragment_wallpaper.xml" value="0.23651079136690648" />
+        <entry key="app/src/main/res/layout/layout_about.xml" value="0.12" />
+        <entry key="app/src/main/res/layout/layout_another.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_auto.xml" value="0.31179775280898875" />
+        <entry key="app/src/main/res/layout/layout_bug.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_button.xml" value="0.12817028985507245" />
+        <entry key="app/src/main/res/layout/layout_button_night.xml" value="0.12817028985507245" />
+        <entry key="app/src/main/res/layout/layout_cancel.xml" value="0.12817028985507245" />
+        <entry key="app/src/main/res/layout/layout_create.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_dialog.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_filter.xml" value="0.12817028985507245" />
+        <entry key="app/src/main/res/layout/layout_launch.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/layout_screen.xml" value="0.4444444444444444" />
+        <entry key="app/src/main/res/layout/layout_select.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_selected.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_send.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_settings.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/layout_share.xml" value="0.12681159420289856" />
+        <entry key="app/src/main/res/layout/layout_text.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_textbckg.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_texttime.xml" value="0.19984802431610943" />
+        <entry key="app/src/main/res/layout/layout_wallpaper.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/overlay_view.xml" value="0.11423505572441743" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.4109375" />
+        <entry key="app/src/main/res/menu/menu.xml" value="0.23489583333333333" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.24074074074074073" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

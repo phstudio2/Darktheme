@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background">#FF000000</color>
+    <color name="whitelight">#D8D8D8</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="greenlight2">#9076FF03</color>
+    <color name="orange">#FF9100</color>
+    <color name="design1">#2b3953</color>
+    <color name="design2">#34425d</color>
+    <color name="design4">#26324a</color>
+    <color name="design5">#1f2a3c</color>
+    <color name="design6">#cfd1f7</color>
+    <color name="design7">#34425d</color>
+    <color name="color1">#80FFFFFF</color>
+    <color name="color2">#80FFD500</color>
+    <color name="color3">#A9000000</color>
+    <color name="dialogtext">#c4c9d7</color>
+    <color name="dialogline">#b2b2b2</color>
+    <color name="dialogname">#FFFFFFFF</color>
+    <color name="bt_changer_text">#FF000000</color>
+    <color name="tv_info_text">#fff</color>
+</resources>

@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.SettingsFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dialoglayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/design4"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="40dp">
+
+                <ImageButton
+                    android:id="@+id/imageButton"
+                    android:layout_width="50dp"
+                    android:layout_height="65dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="@null"
+                    android:contentDescription="@string/logo"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/logophstudio"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_developer_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/developer_name"
+                    android:textColor="@color/dialogname"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintStart_toEndOf="@+id/imageButton"
+                    app:layout_constraintTop_toTopOf="@+id/imageButton" />
+
+                <TextView
+                    android:id="@+id/tv_application_development"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/application_development"
+                    android:textColor="@color/dialogname"
+                    android:textSize="17sp"
+                    app:layout_constraintStart_toStartOf="@+id/tv_developer_name"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_developer_name" />
+
+                <View
+                    android:id="@+id/vw_one"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="2dp"
+                    android:background="@color/orange"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_about"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageButton" />
+
+                <View
+                    android:id="@+id/vw_two"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    android:visibility="gone"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_about"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent" />
+
+                <TextView
+                    android:id="@+id/tv_about"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/tetxt_about"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_about"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_application_development"
+
+                    />
+
+                <View
+                    android:id="@+id/vw_three"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_contact"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_about" />
+
+                <TextView
+                    android:id="@+id/tv_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_contact"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_contact"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_about" />
+
+                <View
+                    android:id="@+id/vw_four"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_report_bug"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_contact" />
+
+                <TextView
+                    android:id="@+id/tv_report_bug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_bug"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_bug"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_contact" />
+
+                <View
+                    android:id="@+id/vw_five"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_report_bug"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_contact" />
+
+                <TextView
+                    android:id="@+id/tv_share"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_share"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_share"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_report_bug" />
+
+                <View
+                    android:id="@+id/vw_six"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_share"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_report_bug" />
+
+                <TextView
+                    android:id="@+id/tv_apps"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_apps"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_apps"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_share" />
+
+                <View
+                    android:id="@+id/vw_seven"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_apps"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_share" />
+
+                <TextView
+                    android:id="@+id/tv_privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_privacy"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_privacy"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_apps" />
+
+                <View
+                    android:id="@+id/vw_nine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_privacy"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_apps" />
+
+                <TextView
+                    android:id="@+id/tv_terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_terms"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    app:drawableLeftCompat="@drawable/size_terms"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_privacy" />
+
+                <View
+                    android:id="@+id/vw_ten"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_terms"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_privacy" />
+
+                <TextView
+                    android:id="@+id/tv_settings"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/text_settings"
+                    android:textColor="@color/dialogtext"
+                    android:textSize="20sp"
+                    android:visibility="gone"
+                    app:drawableLeftCompat="@drawable/size_settings"
+                    app:layout_constraintStart_toStartOf="@+id/imageButton"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_terms" />
+
+                <View
+                    android:id="@+id/vw_eleven"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintBottom_toTopOf="@+id/tv_settings"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_terms" />
+
+                <View
+                    android:id="@+id/vw_twelve"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/dialogline"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/tv_settings" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
