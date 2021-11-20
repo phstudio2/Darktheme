@@ -1,0 +1,10 @@
+This app helps to activate night theme on devices that don't provide this option in the system settings.
+Dark theme conserves battery power, thereby enabling device usage for longer periods without charging.
+After click on the button will change the system theme of your phone.
+
+How it work?
+● Android 10+ => Prompts the user to set it manually in settings.
+● Android 9.0 - 6.0 => Turns on UI system theme
+● Android 5.1 - 4.1 => Turns on Car Mode
+
+New wallpapers, timed toggles, and even display filters are available!

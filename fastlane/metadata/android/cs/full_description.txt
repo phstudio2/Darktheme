@@ -1,0 +1,10 @@
+Tato aplikace pomáhá aktivovat tmavý motiv na zařízeních, které tuto možnost v nastavení systému nemají.
+Tmavé téma šetří energii baterie, a umožňuje tak používat zařízení delší dobu bez nabíjení.
+Po kliknutí na tlačítko se změní systémové téma telefonu.
+
+Jak to funguje?
+● Systém Android 10+ => Vyzve uživatele k ručnímu nastavení v nastavení.
+● Android 9.0 - 6.0 => Zapne systémové téma uživatelského rozhraní.
+● Android 5.1 - 4.1 => Zapne režim auta.
+
+Nově jsou k dispozici tapety, časované přepnutí, ale i filtry displaye!
