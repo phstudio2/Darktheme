@@ -11,6 +11,7 @@
 
  ## Screenshot preview
 <div style="display:flex;">
+ <div> Download Now in Play Store<div\>
 <img alt="App image" src="https://phstudio2.webnode.com/_files/200000045-1de2a1de2c/450/pic1-2.png?ph=53ad80fc8e" width="30%">
 <img alt="App image" src="https://phstudio2.webnode.com/_files/200000044-8fd318fd34/450/pic2.png?ph=53ad80fc8e" width="30%">
 <img alt="App image" src="https://phstudio2.webnode.com/_files/200000043-e72dce72df/450/pic3.png?ph=53ad80fc8e" width="30%">
