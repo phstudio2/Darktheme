@@ -4,6 +4,7 @@
 ### This app helps to activate night theme on devices that don't provide this option in the system settings.
 
 #### Dark theme conserves battery power, thereby enabling device usage for longer periods without charging.
+<div> Download Free<div/>
 
 ## Available for download
 <a href='https://play.google.com/store/apps/details?id=com.phstudio.darktheme'><img src='https://github.com/phstudio2/images/blob/main/stores/googleplay.png' alt='Get it on Google Play' height=80/></a>
