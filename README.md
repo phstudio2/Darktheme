@@ -8,6 +8,7 @@
 ## Available for download
 <a href='https://play.google.com/store/apps/details?id=com.phstudio.darktheme'><img src='https://github.com/phstudio2/images/blob/main/stores/googleplay.png' alt='Get it on Google Play' height=80/></a>
 <a href='https://galaxy.store/dark5'><img src='https://github.com/phstudio2/images/blob/main/stores/galaxystore.png' alt='Get it on Galaxy Store' height=80/></a>
+<a href='https://f-droid.org/packages/com.phstudio.darktheme/'><img src='https://fdroid.gitlab.io/artwork/badge/get-it-on.png' alt='Get it on F-Droid' height=80/></a>
 
  ## Screenshot preview
 <div style="display:flex;">
