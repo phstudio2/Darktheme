@@ -1,0 +1,2 @@
+-Speeding up the application and unifying the look
+-Minor bugs fixed
