@@ -5,7 +5,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="greenlight2">#9076FF03</color>
-    <color name="orange">#FF9100</color>
     <color name="design1">#5C5777</color>
     <color name="design2">#c3c3cd</color>
     <color name="design4">#f4f3f8</color>
@@ -15,10 +14,5 @@
     <color name="color1">#80FFFFFF</color>
     <color name="color2">#80FFD500</color>
     <color name="color3">#A9000000</color>
-    <color name="dialogtext">#E2000000</color>
-    <color name="dialogline">#E2404040</color>
-    <color name="dialogname">#FF000000</color>
-    <color name="bt_changer_text">#fff</color>
-    <color name="tv_info_text">#FF000000</color>
 </resources>
 

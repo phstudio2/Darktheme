@@ -2,21 +2,20 @@
     <string name="app_name" translatable="false">Dark theme</string>
     <string name="app_package" translatable="false">com.phstudio.darktheme</string>
     <string name="developer_name" translatable="false">PH studio</string>
-    <string name="app_version" translatable="false">2.3</string>
+    <string name="app_version" translatable="false">2.4</string>
 
-    <string name="about" translatable="false">https://phstudio2.webnode.com/home/</string>
-    <string name="contact" translatable="false">https://phstudio2.webnode.com/contact/</string>
-    <string name="report" translatable="false">https://phstudio2.webnode.com/report-a-bug/</string>
+    <string name="about" translatable="false">https://phstudio2.github.io/</string>
+    <string name="github" translatable="false">https://github.com/phstudio2</string>
+    <string name="telegram" translatable="false">https://t.me/s/phstudio2</string>
+    <string name="report" translatable="false">https://github.com/phstudio2/Darktheme/issues/new/choose</string>
     <string name="googleplay" translatable="false">https://play.google.com/store/apps/dev?id=5702159986992384861</string>
-    <string name="privacy" translatable="false">https://phstudio2.webnode.com/privacy-policy2/</string>
-    <string name="terms" translatable="false">https://phstudio2.webnode.com/terms-conditions2/</string>
+    <string name="privacy" translatable="false">https://github.com/phstudio2/Darktheme/blob/master/LICENSE</string>
+    <string name="terms" translatable="false">https://github.com/phstudio2/Darktheme/blob/master/LICENSE</string>
     <string name="email_text2" translatable="false">https://play.google.com/store/apps/details?id=com.phstudio.darktheme</string>
     <string name="email_text3" translatable="false">https://galaxy.store/dark5</string>
-    <string name="logo" translatable="false">Logo</string>
 
     <string name="timenull" translatable="false">--:--</string>
 
-    <string name="settings">Settings</string>
     <string name="Yes">Yes</string>
     <string name="No">No</string>
     <string name="Exit_app">Exit app</string>

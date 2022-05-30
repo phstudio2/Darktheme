@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">Настройки</string>
     <string name="Yes">Да</string>
     <string name="No">Нет</string>
     <string name="Exit_app">Выход из приложения</string>

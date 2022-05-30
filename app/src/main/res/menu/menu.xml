@@ -2,25 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/it_changer"
+        android:id="@+id/changerFragment"
         android:icon="@drawable/ic_changer"
         android:title="@string/ChangerTheme" />
     <item
-        android:id="@+id/it_filters"
+        android:id="@+id/filterFragment"
         android:icon="@drawable/ic_filters"
         android:title="@string/filter" />
     <item
-        android:id="@+id/it_wallpapers"
+        android:id="@+id/wallpaperFragment"
         android:icon="@drawable/ic_wallpapers"
         android:title="@string/wallpapers" />
     <item
-        android:id="@+id/it_scheduler"
+        android:id="@+id/schedulerFragment"
         android:icon="@drawable/ic_scheduler"
         android:title="@string/schedule" />
 
     <item
-        android:id="@+id/it_settings"
-        android:icon="@drawable/ic_setting"
-        android:title="@string/settings" />
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/about"
+        android:title="@string/tetxt_about" />
 
 </menu>

@@ -66,57 +66,6 @@ class SchedulerFragment : Fragment() {
             buttondark.setImageResource(R.drawable.on)
         }
 
-        /*timedark.setOnClickListener {
-            val calendar = Calendar.getInstance()
-            val hour = calendar[Calendar.HOUR_OF_DAY]
-            val minute = calendar[Calendar.MINUTE]
-            val year = calendar[Calendar.YEAR]
-            val month = calendar[Calendar.MONTH]
-            val day = calendar[Calendar.DAY_OF_MONTH]
-            val timePickerDialog = TimePickerDialog(activity, { timePicker, i, i1 ->
-                val timeTonotify = "$i:$i1"
-                val dateTonotify = day.toString() + "-" + (month + 1) + "-" + year
-                val dateandtime = "$dateTonotify $timeTonotify"
-                val df = SimpleDateFormat("d-M-yyyy HH:mm")
-                time = df.parse(dateandtime).time
-                if (time < System.currentTimeMillis()) {
-                    time += 86400000
-                }
-                editor.putBoolean("DarkHistory", true).apply()
-                timedark.text = formatetime24(i, i1)
-                buttondark.setImageResource(R.drawable.off)
-                editor.putString("DarkText", formatetime24(i, i1))
-                    .apply()
-                setDark(time)
-            }, hour, minute, true)//24:00
-            timePickerDialog.show()
-        }
-
-        timelight.setOnClickListener {
-            val calendar = Calendar.getInstance()
-            val hour = calendar[Calendar.HOUR_OF_DAY]
-            val minute = calendar[Calendar.MINUTE]
-            val year = calendar[Calendar.YEAR]
-            val month = calendar[Calendar.MONTH]
-            val day = calendar[Calendar.DAY_OF_MONTH]
-            val timePickerDialog = TimePickerDialog(activity, { timePicker, i, i1 ->
-                val timeTonotify = "$i:$i1"
-                val dateTonotify = day.toString() + "-" + (month + 1) + "-" + year
-                val dateandtime = "$dateTonotify $timeTonotify"
-                val df = SimpleDateFormat("d-M-yyyy HH:mm")
-                time = df.parse(dateandtime).time
-                if (time < System.currentTimeMillis()) {
-                    time += 86400000
-                }
-                editor.putBoolean("LightHistory", true).apply()
-                timelight.text = formatetime24(i, i1)
-                buttonlight.setImageResource(R.drawable.off)
-                editor.putString("LightText", formatetime24(i, i1)).apply()
-                setLight(time)
-            }, hour, minute, true)//24:00
-            timePickerDialog.show()
-        }*/
-
         buttondark.setOnClickListener {
             val DarkHistory2 = sharedPreferences.getBoolean("DarkHistory", false)
             if (DarkHistory2) {

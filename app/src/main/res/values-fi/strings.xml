@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">Asetukset</string>
     <string name="Yes">Kyllä</string>
     <string name="No">Ei</string>
     <string name="Exit_app">Sovelluksesta poistuminen</string>

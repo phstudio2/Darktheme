@@ -1,57 +1,73 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/background_activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/day"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:background="@color/design4"
+    android:gravity="center"
     tools:context=".Fragments.ChangerFragment">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/layout_textbckg" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/infotext"
+        android:layout_alignBottom="@+id/changer"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="-16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="-16dp"
+        android:background="@drawable/layout_texttime" />
 
     <TextView
         android:id="@+id/infotext"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/gifImageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:background="@null"
-        android:gravity="center"
+        android:background="@drawable/layout_text"
         android:padding="10dp"
         android:text="@string/light_mode_active"
-        android:textColor="@color/tv_info_text"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:fontFamily="@font/ubuntu"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:backgroundTint="@null"
+        app:fontFamily="@font/ubuntu" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/changer" />
 
     <Button
         android:id="@+id/changer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/gifImageView"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/layout_button"
+        android:background="@drawable/layout_displaybutton"
         android:fontFamily="@font/ubuntu"
         android:padding="10dp"
         android:text="@string/change_to_dark_mode"
         android:textAllCaps="false"
-        android:textColor="@color/bt_changer_text"
-        android:textSize="18sp"
-        app:backgroundTint="@null"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:textColor="@color/design6"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:backgroundTint="@null" />
+</RelativeLayout>

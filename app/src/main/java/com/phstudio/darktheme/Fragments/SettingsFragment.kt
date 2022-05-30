@@ -1,15 +1,18 @@
 package com.phstudio.darktheme.Fragments
 
 import android.content.Intent
+import android.media.Image
 import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageButton
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import com.phstudio.darktheme.R
+import org.w3c.dom.Text
 
 class SettingsFragment : Fragment() {
 
@@ -25,11 +28,14 @@ class SettingsFragment : Fragment() {
         val tv_developer_name = view.findViewById<TextView>(R.id.tv_developer_name)
         val tv_application_development =
             view.findViewById<TextView>(R.id.tv_application_development)
+        val ib_website = view.findViewById<ImageButton>(R.id.ib_website)
         val tv_about = view.findViewById<TextView>(R.id.tv_about)
-        val tv_contact = view.findViewById<TextView>(R.id.tv_contact)
+        val imb_github = view.findViewById<ImageButton>(R.id.imb_github)
+        val tv_github = view.findViewById<TextView>(R.id.tv_github)
+        val tv_apps = view.findViewById<TextView>(R.id.tv_apps)
         val tv_report_bug = view.findViewById<TextView>(R.id.tv_report_bug)
         val tv_share = view.findViewById<TextView>(R.id.tv_share)
-        val tv_apps = view.findViewById<TextView>(R.id.tv_apps)
+        val tv_telegram = view.findViewById<TextView>(R.id.tv_telegram)
         val tv_privacy = view.findViewById<TextView>(R.id.tv_privacy)
         val tv_terms = view.findViewById<TextView>(R.id.tv_terms)
 
@@ -41,6 +47,14 @@ class SettingsFragment : Fragment() {
             Toast.makeText(context, getString(R.string.app_version), Toast.LENGTH_SHORT).show()
         }
 
+        ib_website.setOnClickListener{
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse(getString(R.string.about))
+            )
+            startActivity(browserIntent)
+        }
+
         tv_about.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
@@ -49,10 +63,34 @@ class SettingsFragment : Fragment() {
             startActivity(browserIntent)
         }
 
-        tv_contact.setOnClickListener {
+        imb_github.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse(getString(R.string.contact))
+                Uri.parse(getString(R.string.github))
+            )
+            startActivity(browserIntent)
+        }
+
+        tv_github.setOnClickListener {
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse(getString(R.string.github))
+            )
+            startActivity(browserIntent)
+        }
+
+        tv_apps.setOnClickListener {
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse(getString(R.string.googleplay))
+            )
+            startActivity(browserIntent)
+        }
+
+        tv_report_bug.setOnClickListener {
+            val browserIntent = Intent(
+                Intent.ACTION_VIEW,
+                Uri.parse(getString(R.string.report))
             )
             startActivity(browserIntent)
         }
@@ -73,10 +111,10 @@ class SettingsFragment : Fragment() {
             startActivity(Intent.createChooser(intent, resources.getString(R.string.select_email)))
         }
 
-        tv_apps.setOnClickListener {
+        tv_telegram.setOnClickListener {
             val browserIntent = Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse(getString(R.string.googleplay))
+                Uri.parse(getString(R.string.telegram))
             )
             startActivity(browserIntent)
         }

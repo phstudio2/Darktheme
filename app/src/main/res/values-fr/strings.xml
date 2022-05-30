@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">Paramètres</string>
     <string name="Yes">Oui</string>
     <string name="No">Non</string>
     <string name="Exit_app">Quitter l\'application</string>

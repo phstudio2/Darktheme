@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">Beállítások</string>
     <string name="Yes">Igen</string>
     <string name="No">Nem</string>
     <string name="Exit_app">Exit alkalmazás</string>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/changerFragment">
+
+    <fragment
+        android:id="@+id/changerFragment"
+        android:name="com.phstudio.darktheme.Fragments.ChangerFragment"
+        android:label="fragment_changer"
+        tools:layout="@layout/fragment_changer" />
+    <fragment
+        android:id="@+id/filterFragment"
+        android:name="com.phstudio.darktheme.Fragments.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+    <fragment
+        android:id="@+id/wallpaperFragment"
+        android:name="com.phstudio.darktheme.Fragments.WallpaperFragment"
+        android:label="fragment_wallpaper"
+        tools:layout="@layout/fragment_wallpaper" />
+    <fragment
+        android:id="@+id/schedulerFragment"
+        android:name="com.phstudio.darktheme.Fragments.SchedulerFragment"
+        android:label="fragment_scheduler"
+        tools:layout="@layout/fragment_scheduler" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.phstudio.darktheme.Fragments.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

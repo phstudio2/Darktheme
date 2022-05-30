@@ -3,40 +3,19 @@ package com.phstudio.darktheme
 import android.app.AlertDialog
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import androidx.fragment.app.Fragment
+import androidx.navigation.Navigation.findNavController
+import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import com.phstudio.darktheme.Fragments.*
 import com.phstudio.darktheme.R.*
 
 class MainActivity : AppCompatActivity() {
 
-    private val ChangerFragment = ChangerFragment()
-    private val FilterFragment = FilterFragment()
-    private val WallpaperFragment = WallpaperFragment()
-    private val SchedulerFragment = SchedulerFragment()
-    private val SettingsFragment = SettingsFragment()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
-        replaceFragment(ChangerFragment)
-        val bottom_navigation = findViewById<BottomNavigationView>(id.bottom_navigation)
-        bottom_navigation.setOnNavigationItemSelectedListener {
-            when (it.itemId) {
-                id.it_changer -> replaceFragment(ChangerFragment)
-                id.it_filters -> replaceFragment(FilterFragment)
-                id.it_wallpapers -> replaceFragment(WallpaperFragment)
-                id.it_scheduler -> replaceFragment(SchedulerFragment)
-                id.it_settings -> replaceFragment(SettingsFragment)
-            }
-            true
-        }
-    }
-
-    private fun replaceFragment(fragment: Fragment) {
-        val transtction = supportFragmentManager.beginTransaction()
-        transtction.replace(id.fragment_container, fragment)
-        transtction.commit()
+        val nav = findViewById<BottomNavigationView>(id.bottom_navigation)
+        val navController = findNavController(this, id.fragment_container)
+        nav.setupWithNavController(navController)
     }
 
     override fun onBackPressed() {

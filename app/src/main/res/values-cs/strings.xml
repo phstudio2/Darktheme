@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">Nastavení</string>
     <string name="Yes">Ano</string>
     <string name="No">Ne</string>
     <string name="Exit_app">Ukončit aplikaci</string>

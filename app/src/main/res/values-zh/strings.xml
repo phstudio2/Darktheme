@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">设置</string>
     <string name="Yes">是</string>
     <string name="No">非也。</string>
     <string name="Exit_app">退出应用程序</string>

@@ -6,23 +6,19 @@ import android.app.UiModeManager.DISABLE_CAR_MODE_GO_HOME
 import android.content.Context
 import android.content.Intent
 import android.content.res.Configuration
-import android.graphics.Color
 import android.os.Build
 import android.os.Bundle
 import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.animation.AnimationUtils
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatDelegate
-import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat.getSystemService
 import androidx.fragment.app.Fragment
 import com.phstudio.darktheme.R
-
 
 class ChangerFragment : Fragment() {
 
@@ -111,39 +107,16 @@ class ChangerFragment : Fragment() {
 
     private fun displaydark() {
         val changebtn = view?.findViewById<Button>(R.id.changer)
-        val background = view?.findViewById<ConstraintLayout>(R.id.background_activity_main)
         val changetext = view?.findViewById<TextView>(R.id.infotext)
-
-
-        background?.setBackgroundResource(R.drawable.night)
-        changebtn?.text = resources.getString(R.string.change_to_light_mode)
         changetext?.text = resources.getString(R.string.dark_mode_active)
-        changebtn?.setBackgroundResource(R.drawable.layout_button_night)
-        changebtn?.setTextColor(Color.parseColor("#FF000000"))
-        changetext?.setTextColor(Color.parseColor("#FFFFFFFF"))
-
-        val start_bounce = AnimationUtils.loadAnimation(context, R.anim.bounce)
-        changebtn?.startAnimation(start_bounce)
-        val start_text = AnimationUtils.loadAnimation(context, R.anim.text)
-        changetext?.startAnimation(start_text)
+        changebtn?.text = resources.getString(R.string.change_to_light_mode)
     }
 
     private fun displaylight() {
         val changebtn = view?.findViewById<Button>(R.id.changer)
-        val background = view?.findViewById<ConstraintLayout>(R.id.background_activity_main)
         val changetext = view?.findViewById<TextView>(R.id.infotext)
-
-        background?.setBackgroundResource(R.drawable.day)
         changebtn?.text = resources.getString(R.string.change_to_dark_mode)
         changetext?.text = resources.getString(R.string.light_mode_active)
-        changebtn?.setBackgroundResource(R.drawable.layout_button)
-        changebtn?.setTextColor(Color.parseColor("#FFFFFFFF"))
-        changetext?.setTextColor(Color.parseColor("#FF000000"))
-
-        val start_bounce = AnimationUtils.loadAnimation(context, R.anim.bounce)
-        changebtn?.startAnimation(start_bounce)
-        val start_text = AnimationUtils.loadAnimation(context, R.anim.text)
-        changetext?.startAnimation(start_text)
     }
 
     private fun display() {

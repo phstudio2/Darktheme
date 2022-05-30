@@ -1,5 +1,4 @@
 <resources>
-    <string name="settings">Einstellungen</string>
     <string name="Yes">Ja</string>
     <string name="No">Nein</string>
     <string name="Exit_app">Beenden der Anwendung</string>
