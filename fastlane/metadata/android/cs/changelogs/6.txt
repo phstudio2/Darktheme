@@ -1,0 +1,2 @@
+-Zrychlení aplikace a sjednocení vzhledu
+-Oprava drobných chyb
