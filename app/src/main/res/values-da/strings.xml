@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Skift til lystilstand!</string>
     <string name="light_mode_active">Lystilstand er aktiv!</string>
     <string name="dark_mode_active">Mørk tilstand er aktiv!</string>
-    <string name="systeminsettings">Skift temaet direkte på din enhed.</string>
+    <string name="system_in_settings">Skift temaet direkte på din enhed.</string>
     <string name="ChangerTheme">Tema skifter</string>
     <string name="DarkModeShortcut">Genvej</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Planlægger</string>
     <string name="filter">Filtre</string>
     <string name="select">Vælg</string>
-    <string name="stoptheme">Suspenderet!</string>
-    <string name="starttheme">Sæt!</string>
+    <string name="stop_theme">Suspenderet!</string>
+    <string name="start_theme">Sæt!</string>
     <string name="set_dark_mode">MØRK TILSTAND INDSTILLET</string>
     <string name="set_light_mode">LYSTILSTAND INDSTILLET</string>
     <string name="on_time">Tændingstid</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED sort</string>
     <string name="flower">Hvid blomst</string>
     <string name="moon">Månen med flyvemaskine</string>
-    <string name="wantpic">Vil du virkelig indstille dette tapet?</string>
+    <string name="want_pic">Vil du virkelig indstille dette tapet?</string>
     <string name="cat">Kat</string>
     <string name="horse">Hest</string>
     <string name="dog">Hund</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtre</string>
     <string name="ContentText">Klik for at slukke</string>
     <string name="text_filters">Skærmfilter</string>
-    <string name="notsupport">Dit system understøtter ikke.</string>
+    <string name="not_support">Dit system understøtter ikke.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Udvikling af applikationer</string>
-    <string name="tetxt_about">Om os</string>
+    <string name="text_about">Om os</string>
     <string name="text_contact">Kontakt os</string>
     <string name="text_bug">Rapporter en fejl</string>
     <string name="text_share">Del</string>

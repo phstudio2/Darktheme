@@ -5,10 +5,11 @@
     android:padding="0dp">
 
     <ImageButton
-        android:id="@+id/app_button"
+        android:id="@+id/btApp"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
         android:background="@null"
         android:contentDescription="@string/change_to_dark_mode"
         android:src="@mipmap/ic_launcher" />

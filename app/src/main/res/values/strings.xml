@@ -2,19 +2,19 @@
     <string name="app_name" translatable="false">Dark theme</string>
     <string name="app_package" translatable="false">com.phstudio.darktheme</string>
     <string name="developer_name" translatable="false">PH studio</string>
-    <string name="app_version" translatable="false">2.4</string>
+    <string name="app_version" translatable="false">2.5</string>
 
     <string name="about" translatable="false">https://phstudio2.github.io/</string>
     <string name="github" translatable="false">https://github.com/phstudio2</string>
     <string name="telegram" translatable="false">https://t.me/s/phstudio2</string>
     <string name="report" translatable="false">https://github.com/phstudio2/Darktheme/issues/new/choose</string>
-    <string name="googleplay" translatable="false">https://play.google.com/store/apps/dev?id=5702159986992384861</string>
+    <string name="google_play" translatable="false">https://play.google.com/store/apps/dev?id=5702159986992384861</string>
     <string name="privacy" translatable="false">https://github.com/phstudio2/Darktheme/blob/master/LICENSE</string>
     <string name="terms" translatable="false">https://github.com/phstudio2/Darktheme/blob/master/LICENSE</string>
     <string name="email_text2" translatable="false">https://play.google.com/store/apps/details?id=com.phstudio.darktheme</string>
     <string name="email_text3" translatable="false">https://galaxy.store/dark5</string>
 
-    <string name="timenull" translatable="false">--:--</string>
+    <string name="time_null" translatable="false">--:--</string>
 
     <string name="Yes">Yes</string>
     <string name="No">No</string>
@@ -29,7 +29,7 @@
     <string name="change_to_light_mode">Change to light mode</string>
     <string name="light_mode_active">Light mode active!</string>
     <string name="dark_mode_active">Dark mode active!</string>
-    <string name="systeminsettings">Change the theme directly on your device.</string>
+    <string name="system_in_settings">Change the theme directly on your device.</string>
     <string name="ChangerTheme">Changer Theme</string>
     <string name="DarkModeShortcut">Shortcut</string>
     <string name="AM">AM</string>
@@ -38,8 +38,8 @@
     <string name="schedule">Scheduler</string>
     <string name="filter">Filters</string>
     <string name="select">select</string>
-    <string name="stoptheme">Paused!</string>
-    <string name="starttheme">Set!</string>
+    <string name="stop_theme">Paused!</string>
+    <string name="start_theme">Set!</string>
     <string name="set_dark_mode">DARK MODE SET</string>
     <string name="set_light_mode">LIGHT MODE SET</string>
     <string name="on_time">On time</string>
@@ -47,7 +47,7 @@
     <string name="amoled">AMOLED Black</string>
     <string name="flower">White flower</string>
     <string name="moon">Moon with plane</string>
-    <string name="wantpic">Do you want this picture to wallpaper?</string>
+    <string name="want_pic">Do you want this picture to wallpaper?</string>
     <string name="cat">Cat</string>
     <string name="horse">Horse</string>
     <string name="dog">Dog</string>
@@ -60,11 +60,11 @@
     <string name="CHANNEL_NAME">Filters</string>
     <string name="ContentText">Tap to off</string>
     <string name="text_filters">Display Filters</string>
-    <string name="notsupport">Your system does not support.</string>
+    <string name="not_support">Your system does not support.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Application development</string>
-    <string name="tetxt_about">About</string>
+    <string name="text_about">About</string>
     <string name="text_contact">Contact</string>
     <string name="text_bug">Report bug</string>
     <string name="text_share">Share</string>

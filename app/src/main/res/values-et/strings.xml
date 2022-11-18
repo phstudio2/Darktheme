@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Vaheta valgusrežiimile!</string>
     <string name="light_mode_active">Valgusrežiim on aktiivne!</string>
     <string name="dark_mode_active">Tume režiim on aktiivne!</string>
-    <string name="systeminsettings">Muutke teemat otse oma seadmes.</string>
+    <string name="system_in_settings">Muutke teemat otse oma seadmes.</string>
     <string name="ChangerTheme">Teemavahetaja</string>
     <string name="DarkModeShortcut">Esindaja</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Planeerija</string>
     <string name="filter">Filtrid</string>
     <string name="select">Valige</string>
-    <string name="stoptheme">Peatatud!</string>
-    <string name="starttheme">Komplekt!</string>
+    <string name="stop_theme">Peatatud!</string>
+    <string name="start_theme">Komplekt!</string>
     <string name="set_dark_mode">TUME REŽIIMI SEADISTUS</string>
     <string name="set_light_mode">VALGUSREŽIIMI SEADISTUS</string>
     <string name="on_time">Power on time</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED must</string>
     <string name="flower">Valge lill</string>
     <string name="moon">Kuu koos lennukiga</string>
-    <string name="wantpic">Kas sa tõesti tahad seda taustapilti seada?</string>
+    <string name="want_pic">Kas sa tõesti tahad seda taustapilti seada?</string>
     <string name="cat">Kass</string>
     <string name="horse">Hobune</string>
     <string name="dog">Koer</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtrid</string>
     <string name="ContentText">Väljalülitamiseks klõpsake</string>
     <string name="text_filters">Ekraanifilter</string>
-    <string name="notsupport">Teie süsteem ei toeta.</string>
+    <string name="not_support">Teie süsteem ei toeta.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Mobiilirakenduste arendamine</string>
-    <string name="tetxt_about">Meie kohta</string>
+    <string name="text_about">Meie kohta</string>
     <string name="text_contact">Võtke meiega ühendust</string>
     <string name="text_bug">Teatage veast</string>
     <string name="text_share">Jaga</string>

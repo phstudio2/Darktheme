@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Změnit na světlý mód!</string>
     <string name="light_mode_active">Světlý mód je aktivní!</string>
     <string name="dark_mode_active">Tmavý mód je aktivní!</string>
-    <string name="systeminsettings">Změňte motiv přímo ve vašem zařízení.</string>
+    <string name="system_in_settings">Změňte motiv přímo ve vašem zařízení.</string>
     <string name="ChangerTheme">Měnič téma</string>
     <string name="DarkModeShortcut">Zástupce</string>
     <string name="AM">DOP.</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Plánovač</string>
     <string name="filter">Filtry</string>
     <string name="select">Vybrat</string>
-    <string name="stoptheme">Pozastaveno!</string>
-    <string name="starttheme">Nastaveno!</string>
+    <string name="stop_theme">Pozastaveno!</string>
+    <string name="start_theme">Nastaveno!</string>
     <string name="set_dark_mode">NASTAVEN TEMNÝ REŽIM</string>
     <string name="set_light_mode">NASTAVEN SVĚTLÝ REŽIM</string>
     <string name="on_time">Čas zapnutí</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED černá</string>
     <string name="flower">Bílá květina</string>
     <string name="moon">Měsíc s letadlem</string>
-    <string name="wantpic">Opravdu chcete nastavit tuto tapetu?</string>
+    <string name="want_pic">Opravdu chcete nastavit tuto tapetu?</string>
     <string name="cat">Kočka</string>
     <string name="horse">Kůň</string>
     <string name="dog">Pes</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtry</string>
     <string name="ContentText">Klikni pro vypnutí</string>
     <string name="text_filters">Filtr obrazovky</string>
-    <string name="notsupport">Váš systém nepodporuje.</string>
+    <string name="not_support">Váš systém nepodporuje.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Vývoj mobilních aplikací</string>
-    <string name="tetxt_about">O nás</string>
+    <string name="text_about">O nás</string>
     <string name="text_contact">Kontaktujte nás</string>
     <string name="text_bug">Nahlásit chybu</string>
     <string name="text_share">Sdílet</string>

@@ -4,9 +4,9 @@
 
     <gradient
         android:angle="180"
-        android:centerColor="@color/whitelight"
-        android:endColor="@color/whitelight"
-        android:startColor="@color/whitelight" />
+        android:centerColor="@color/white_light"
+        android:endColor="@color/white_light"
+        android:startColor="@color/white_light" />
 
     <corners android:radius="10dp" />
     <stroke

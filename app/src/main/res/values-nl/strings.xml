@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Ga over op lichtstand!</string>
     <string name="light_mode_active">Lichtmodus is actief!</string>
     <string name="dark_mode_active">Donkere modus is actief!</string>
-    <string name="systeminsettings">Verander het thema direct op uw toestel.</string>
+    <string name="system_in_settings">Verander het thema direct op uw toestel.</string>
     <string name="ChangerTheme">Themawisselaar</string>
     <string name="DarkModeShortcut">Snelkoppeling</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Planner</string>
     <string name="filter">Filters</string>
     <string name="select">Selecteer</string>
-    <string name="stoptheme">Geschorst!</string>
-    <string name="starttheme">Set!</string>
+    <string name="stop_theme">Geschorst!</string>
+    <string name="start_theme">Set!</string>
     <string name="set_dark_mode">DONKER MODUS INSTELLEN</string>
     <string name="set_light_mode">LICHTMODUS INSTELLEN</string>
     <string name="on_time">Inschakeltijd</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED zwart</string>
     <string name="flower">Witte bloem</string>
     <string name="moon">Maan met vliegtuig</string>
-    <string name="wantpic">Wil je dit behang echt instellen?</string>
+    <string name="want_pic">Wil je dit behang echt instellen?</string>
     <string name="cat">Kat</string>
     <string name="horse">Paard</string>
     <string name="dog">Hond</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filters</string>
     <string name="ContentText">Klik om uit te schakelen</string>
     <string name="text_filters">Schermfilter</string>
-    <string name="notsupport">Uw systeem ondersteunt dit niet.</string>
+    <string name="not_support">Uw systeem ondersteunt dit niet.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Ontwikkeling van mobiele toepassingen</string>
-    <string name="tetxt_about">Over ons</string>
+    <string name="text_about">Over ons</string>
     <string name="text_contact">Contacteer ons</string>
     <string name="text_bug">Een bug melden</string>
     <string name="text_share">Deel</string>

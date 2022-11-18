@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.phstudio.darktheme">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
     <uses-permission android:name="android.permission.SET_WALLPAPER" />
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
@@ -23,26 +23,27 @@
         </activity>
 
         <!-- Filter set -->
-        <service android:name=".Fragments.OverlayService" />
+        <service android:name=".fragments.OverlayService" />
 
-        <!-- Scheduler set -->
-        <receiver android:name=".Fragments.AutoChangeDark" />
-        <receiver android:name=".Fragments.AutoChangeLight" />
+        <!-- Broadcast -->
+        <receiver android:name=".broadcast.NotificationBroadcast"/>
+        <receiver android:name=".broadcast.AutoChangeDark" />
+        <receiver android:name=".broadcast.AutoChangeLight" />
 
         <!-- Widget set -->
         <activity
-            android:name=".Widgets.DarkTheme"
+            android:name=".widgets.DarkTheme"
             android:configChanges="uiMode"
             android:noHistory="true" />
 
         <activity
-            android:name=".Widgets.LightTheme"
+            android:name=".widgets.LightTheme"
             android:configChanges="uiMode"
             android:noHistory="true" />
 
         <!-- Widgets -->
         <receiver
-            android:name=".Widgets.ChangerTheme"
+            android:name=".widgets.ChangerTheme"
             android:exported="true"
             android:label="@string/ChangerTheme">
             <intent-filter>
@@ -54,7 +55,7 @@
                 android:resource="@xml/changer_theme_info" />
         </receiver>
         <receiver
-            android:name=".Widgets.DarkModeShortcut"
+            android:name=".widgets.DarkModeShortcut"
             android:exported="true"
             android:label="@string/DarkModeShortcut">
             <intent-filter>
@@ -66,7 +67,7 @@
                 android:resource="@xml/dark_mode_shortcut_info" />
         </receiver>
         <receiver
-            android:name=".Widgets.ChangetoDark"
+            android:name=".widgets.ChangeToDark"
             android:exported="true"
             android:label="@string/change_to_dark_mode">
             <intent-filter>
@@ -75,10 +76,10 @@
 
             <meta-data
                 android:name="android.appwidget.provider"
-                android:resource="@xml/changeto_dark_info" />
+                android:resource="@xml/change_to_dark_info" />
         </receiver>
         <receiver
-            android:name=".Widgets.ChangetoLight"
+            android:name=".widgets.ChangeToLight"
             android:exported="true"
             android:label="@string/change_to_light_mode">
             <intent-filter>
@@ -92,7 +93,7 @@
 
         <!-- Tiles -->
         <service
-            android:name=".Tiles.TileMoon"
+            android:name=".tiles.TileMoon"
             android:exported="true"
             android:icon="@drawable/ic_moon"
             android:label="@string/change_to_dark_mode"
@@ -103,7 +104,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".Tiles.TileSun"
+            android:name=".tiles.TileSun"
             android:exported="true"
             android:icon="@drawable/ic_sun"
             android:label="@string/change_to_light_mode"
@@ -114,7 +115,7 @@
             </intent-filter>
         </service>
         <service
-            android:name=".Tiles.Tile"
+            android:name=".tiles.Tile"
             android:exported="true"
             android:icon="@drawable/ic_app"
             android:label="@string/app_name"

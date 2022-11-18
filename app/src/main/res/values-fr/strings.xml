@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Passez en mode lumière !</string>
     <string name="light_mode_active">Le mode lumière est actif !</string>
     <string name="dark_mode_active">Le mode sombre est actif !</string>
-    <string name="systeminsettings">Changez le thème directement sur votre appareil.</string>
+    <string name="system_in_settings">Changez le thème directement sur votre appareil.</string>
     <string name="ChangerTheme">Changeur de thème</string>
     <string name="DarkModeShortcut">Raccourci</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Planificateur</string>
     <string name="filter">Filtres</string>
     <string name="select">Sélectionner</string>
-    <string name="stoptheme">Suspendu !</string>
-    <string name="starttheme">En place !</string>
+    <string name="stop_theme">Suspendu !</string>
+    <string name="start_theme">En place !</string>
     <string name="set_dark_mode">RÉGLAGE DU MODE SOMBRE</string>
     <string name="set_light_mode">MODE D\'LUMIÈRE RÉGLÉ</string>
     <string name="on_time">Temps de mise sous tension</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED noir</string>
     <string name="flower">Fleur blanche</string>
     <string name="moon">Lune avec avion</string>
-    <string name="wantpic">Tu veux vraiment mettre ce papier peint ?</string>
+    <string name="want_pic">Tu veux vraiment mettre ce papier peint ?</string>
     <string name="cat">Chat</string>
     <string name="horse">Cheval</string>
     <string name="dog">Chien</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtres</string>
     <string name="ContentText">Cliquez pour éteindre</string>
     <string name="text_filters">Filtre à tamis</string>
-    <string name="notsupport">Votre système ne prend pas en charge.</string>
+    <string name="not_support">Votre système ne prend pas en charge.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Développement d\'applications mobiles</string>
-    <string name="tetxt_about">A propos de nous</string>
+    <string name="text_about">A propos de nous</string>
     <string name="text_contact">Nous contacter</string>
     <string name="text_bug">Signaler un bogue</string>
     <string name="text_share">Partager</string>

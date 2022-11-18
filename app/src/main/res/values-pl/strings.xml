@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Przejście do trybu światła!</string>
     <string name="light_mode_active">Tryb światła jest aktywny!</string>
     <string name="dark_mode_active">Tryb ciemny jest aktywny!</string>
-    <string name="systeminsettings">Zmień motyw bezpośrednio na swoim urządzeniu.</string>
+    <string name="system_in_settings">Zmień motyw bezpośrednio na swoim urządzeniu.</string>
     <string name="ChangerTheme">Zmieniacz motywów</string>
     <string name="DarkModeShortcut">Skrót</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Planista</string>
     <string name="filter">Filtry</string>
     <string name="select">Wybierz</string>
-    <string name="stoptheme">Zawieszony!</string>
-    <string name="starttheme">Zestaw!</string>
+    <string name="stop_theme">Zawieszony!</string>
+    <string name="start_theme">Zestaw!</string>
     <string name="set_dark_mode">TRYB CIEMNY USTAWIONY</string>
     <string name="set_light_mode">TRYB OŚWIETLENIA USTAWIONY</string>
     <string name="on_time">Czas włączenia zasilania</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED czarny</string>
     <string name="flower">Biały kwiat</string>
     <string name="moon">Księżyc z samolotem</string>
-    <string name="wantpic">Czy naprawdę chcesz ustawić tę tapetę?</string>
+    <string name="want_pic">Czy naprawdę chcesz ustawić tę tapetę?</string>
     <string name="cat">Kot</string>
     <string name="horse">Koń</string>
     <string name="dog">Pies</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtry</string>
     <string name="ContentText">Kliknij, aby wyłączyć</string>
     <string name="text_filters">Filtr sitowy</string>
-    <string name="notsupport">Twój system nie obsługuje.</string>
+    <string name="not_support">Twój system nie obsługuje.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Rozwój aplikacji mobilnych</string>
-    <string name="tetxt_about">O nas</string>
+    <string name="text_about">O nas</string>
     <string name="text_contact">Skontaktuj się z nami</string>
     <string name="text_bug">Zgłoś błąd</string>
     <string name="text_share">Udostępnij</string>

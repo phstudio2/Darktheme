@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Pāriet uz gaismas režīmu!</string>
     <string name="light_mode_active">Gaismas režīms ir aktīvs!</string>
     <string name="dark_mode_active">Tumšais režīms ir aktīvs!</string>
-    <string name="systeminsettings">Mainiet tēmu tieši savā ierīcē.</string>
+    <string name="system_in_settings">Mainiet tēmu tieši savā ierīcē.</string>
     <string name="ChangerTheme">Tēmas mainītājs</string>
     <string name="DarkModeShortcut">Īsceļi</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Plānotājs</string>
     <string name="filter">Filtri</string>
     <string name="select">Izvēlēties</string>
-    <string name="stoptheme">Atstādināts!</string>
-    <string name="starttheme">Apstājās!</string>
+    <string name="stop_theme">Atstādināts!</string>
+    <string name="start_theme">Apstājās!</string>
     <string name="set_dark_mode">TUMŠAIS REŽĪMS IESTATĪTS</string>
     <string name="set_light_mode">GAISMAS REŽĪMS IESTATĪTS</string>
     <string name="on_time">Ieslēgšanas laiks</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED melns</string>
     <string name="flower">balts zieds</string>
     <string name="moon">Mēness ar lidmašīnu</string>
-    <string name="wantpic">Vai jūs patiešām vēlaties uzstādīt šo fonu?</string>
+    <string name="want_pic">Vai jūs patiešām vēlaties uzstādīt šo fonu?</string>
     <string name="cat">Kaķis</string>
     <string name="horse">Zirgs</string>
     <string name="dog">Suns</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtri</string>
     <string name="ContentText">Noklikšķiniet, lai izslēgtu</string>
     <string name="text_filters">Ekrāna filtrs</string>
-    <string name="notsupport">Jūsu sistēma neatbalsta.</string>
+    <string name="not_support">Jūsu sistēma neatbalsta.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Mobilo lietojumprogrammu izstrāde</string>
-    <string name="tetxt_about">Par mums</string>
+    <string name="text_about">Par mums</string>
     <string name="text_contact">Sazinieties ar mums</string>
     <string name="text_bug">Ziņot par kļūdu</string>
     <string name="text_share">Dalīties</string>

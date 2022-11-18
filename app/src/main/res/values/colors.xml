@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="background">#FF000000</color>
-    <color name="whitelight">#D8D8D8</color>
+    <color name="white_light">#D8D8D8</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="greenlight2">#9076FF03</color>
     <color name="design1">#5C5777</color>
     <color name="design2">#c3c3cd</color>
     <color name="design4">#f4f3f8</color>
     <color name="design5">#7A050910</color>
     <color name="design6">#cfd1f7</color>
     <color name="design7">#7A050910</color>
-    <color name="color1">#80FFFFFF</color>
-    <color name="color2">#80FFD500</color>
     <color name="color3">#A9000000</color>
 </resources>
 

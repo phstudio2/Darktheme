@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Preklopite na svetlobni način!</string>
     <string name="light_mode_active">Svetlobni način je aktiven!</string>
     <string name="dark_mode_active">Temni način je aktiven!</string>
-    <string name="systeminsettings">:Spremenite temo neposredno v napravi.</string>
+    <string name="system_in_settings">:Spremenite temo neposredno v napravi.</string>
     <string name="ChangerTheme">Menjalnik teme</string>
     <string name="DarkModeShortcut">Bližnjice</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Načrtovalec</string>
     <string name="filter">Filtri</string>
     <string name="select">Izberite</string>
-    <string name="stoptheme">Suspendiran!</string>
-    <string name="starttheme">Nastavljeno!</string>
+    <string name="stop_theme">Suspendiran!</string>
+    <string name="start_theme">Nastavljeno!</string>
     <string name="set_dark_mode">NASTAVLJEN TEMNI NAČIN</string>
     <string name="set_light_mode">LIGHT MODE SET</string>
     <string name="on_time">Čas vklopa</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED črna</string>
     <string name="flower">Beli cvet</string>
     <string name="moon">Luna z letalom</string>
-    <string name="wantpic">Ali res želite nastaviti to ozadje?</string>
+    <string name="want_pic">Ali res želite nastaviti to ozadje?</string>
     <string name="cat">Mačka</string>
     <string name="horse">Konj</string>
     <string name="dog">Pes</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtri</string>
     <string name="ContentText">Kliknite za izklop</string>
     <string name="text_filters">Zaslonski filter</string>
-    <string name="notsupport">Vaš sistem ne podpira.</string>
+    <string name="not_support">Vaš sistem ne podpira.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Razvoj mobilnih aplikacij</string>
-    <string name="tetxt_about">O nas</string>
+    <string name="text_about">O nas</string>
     <string name="text_contact">Pišite nam</string>
     <string name="text_bug">Prijavite napako</string>
     <string name="text_share">Delite</string>

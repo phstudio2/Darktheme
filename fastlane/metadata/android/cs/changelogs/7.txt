@@ -1,0 +1,3 @@
+-Přidán posuvník pro nastavení intenzity barevného filtru
+-Podpora novějších zařízení
+-Oprava drobných chyb

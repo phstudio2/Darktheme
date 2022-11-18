@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Treceți la modul lumină!</string>
     <string name="light_mode_active">Modul lumină este activ!</string>
     <string name="dark_mode_active">Modul întunecat este activ!</string>
-    <string name="systeminsettings">Modificați tema direct de pe dispozitiv.</string>
+    <string name="system_in_settings">Modificați tema direct de pe dispozitiv.</string>
     <string name="ChangerTheme">Schimbător de teme</string>
     <string name="DarkModeShortcut">Reprezentant</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Programator</string>
     <string name="filter">Filtre</string>
     <string name="select">Selectați</string>
-    <string name="stoptheme">Suspendat!</string>
-    <string name="starttheme">Set!</string>
+    <string name="stop_theme">Suspendat!</string>
+    <string name="start_theme">Set!</string>
     <string name="set_dark_mode">MOD ÎNTUNECAT SETAT</string>
     <string name="set_light_mode">SETAREA MODULUI DE ILUMINARE</string>
     <string name="on_time">Timp de pornire</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED negru</string>
     <string name="flower">Floare albă</string>
     <string name="moon">Luna cu avionul</string>
-    <string name="wantpic">Chiar vrei să pui acest tapet?</string>
+    <string name="want_pic">Chiar vrei să pui acest tapet?</string>
     <string name="cat">Pisică</string>
     <string name="horse">Cal</string>
     <string name="dog">Câine</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtre</string>
     <string name="ContentText">Faceți clic pentru a opri</string>
     <string name="text_filters">Filtru de ecran</string>
-    <string name="notsupport">Sistemul dvs. nu acceptă.</string>
+    <string name="not_support">Sistemul dvs. nu acceptă.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Dezvoltarea aplicațiilor mobile</string>
-    <string name="tetxt_about">Despre noi</string>
+    <string name="text_about">Despre noi</string>
     <string name="text_contact">Contactați-ne</string>
     <string name="text_bug">Raportați o eroare</string>
     <string name="text_share">Share</string>

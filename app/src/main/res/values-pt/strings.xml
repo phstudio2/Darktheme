@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Mude para o modo de luz!</string>
     <string name="light_mode_active">O modo de luz está ativo!</string>
     <string name="dark_mode_active">O modo escuro está ativo!</string>
-    <string name="systeminsettings">Mude o tema diretamente no seu dispositivo.</string>
+    <string name="system_in_settings">Mude o tema diretamente no seu dispositivo.</string>
     <string name="ChangerTheme">Mudança de tema</string>
     <string name="DarkModeShortcut">Atalho</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Agendador</string>
     <string name="filter">Filtros</string>
     <string name="select">Selecionar</string>
-    <string name="stoptheme">Suspenso!</string>
-    <string name="starttheme">Preparar!</string>
+    <string name="stop_theme">Suspenso!</string>
+    <string name="start_theme">Preparar!</string>
     <string name="set_dark_mode">MODO ESCURO DEFINIDO</string>
     <string name="set_light_mode">MODO DE LUZ DEFINIDO</string>
     <string name="on_time">Energia no horário</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED preto</string>
     <string name="flower">Flor branca</string>
     <string name="moon">Lua com avião</string>
-    <string name="wantpic">Você realmente quer colocar este papel de parede?</string>
+    <string name="want_pic">Você realmente quer colocar este papel de parede?</string>
     <string name="cat">Gato</string>
     <string name="horse">Cavalo</string>
     <string name="dog">Cão</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtros</string>
     <string name="ContentText">Clique para desligar</string>
     <string name="text_filters">Filtro de tela</string>
-    <string name="notsupport">O seu sistema não suporta.</string>
+    <string name="not_support">O seu sistema não suporta.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Desenvolvimento de aplicações móveis</string>
-    <string name="tetxt_about">Sobre nós</string>
+    <string name="text_about">Sobre nós</string>
     <string name="text_contact">Contacte-nos</string>
     <string name="text_bug">Relatar um erro</string>
     <string name="text_share">Partilhar</string>

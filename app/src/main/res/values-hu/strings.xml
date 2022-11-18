@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Válts fény üzemmódra!</string>
     <string name="light_mode_active">A fény üzemmód aktív!</string>
     <string name="dark_mode_active">A sötét üzemmód aktív!</string>
-    <string name="systeminsettings">Változtassa meg a témát közvetlenül a készülékén.</string>
+    <string name="system_in_settings">Változtassa meg a témát közvetlenül a készülékén.</string>
     <string name="ChangerTheme">Témaváltó</string>
     <string name="DarkModeShortcut">Reprezentatív</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Ütemező</string>
     <string name="filter">Szűrők</string>
     <string name="select">Választ</string>
-    <string name="stoptheme">Felfüggesztve!</string>
-    <string name="starttheme">Kész!</string>
+    <string name="stop_theme">Felfüggesztve!</string>
+    <string name="start_theme">Kész!</string>
     <string name="set_dark_mode">SÖTÉT ÜZEMMÓD BEÁLLÍTÁSA</string>
     <string name="set_light_mode">LIGHT MODE SET</string>
     <string name="on_time">Bekapcsolási idő</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED fekete</string>
     <string name="flower">Fehér virág</string>
     <string name="moon">Hold repülővel</string>
-    <string name="wantpic">Tényleg be akarod állítani ezt a háttérképet?</string>
+    <string name="want_pic">Tényleg be akarod állítani ezt a háttérképet?</string>
     <string name="cat">Cat</string>
     <string name="horse">Ló</string>
     <string name="dog">Kutya</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Szűrők</string>
     <string name="ContentText">Kattintson a kikapcsoláshoz</string>
     <string name="text_filters">Képernyő szűrő</string>
-    <string name="notsupport">Az Ön rendszere nem támogatja.</string>
+    <string name="not_support">Az Ön rendszere nem támogatja.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Mobil alkalmazásfejlesztés</string>
-    <string name="tetxt_about">Rólunk</string>
+    <string name="text_about">Rólunk</string>
     <string name="text_contact">Kapcsolatfelvétel</string>
     <string name="text_bug">Hiba jelentése</string>
     <string name="text_share">Megosztás</string>

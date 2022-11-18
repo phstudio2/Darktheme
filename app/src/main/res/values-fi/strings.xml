@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Vaihda valotilaan!</string>
     <string name="light_mode_active">Valotila on aktiivinen!</string>
     <string name="dark_mode_active">Pimeä tila on aktiivinen!</string>
-    <string name="systeminsettings">Vaihda teema suoraan laitteessasi.</string>
+    <string name="system_in_settings">Vaihda teema suoraan laitteessasi.</string>
     <string name="ChangerTheme">Teemanvaihtaja</string>
     <string name="DarkModeShortcut">Edustaja</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Suunnittelija</string>
     <string name="filter">Suodattimet</string>
     <string name="select">Valitse</string>
-    <string name="stoptheme">Keskeytetty!</string>
-    <string name="starttheme">Aseta!</string>
+    <string name="stop_theme">Keskeytetty!</string>
+    <string name="start_theme">Aseta!</string>
     <string name="set_dark_mode">TUMMAN TILAN ASETUS</string>
     <string name="set_light_mode">VALOTILA ASETETTU</string>
     <string name="on_time">Virran kytkeytymisaika</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED musta</string>
     <string name="flower">Valkoinen kukka</string>
     <string name="moon">Kuu ja lentokone</string>
-    <string name="wantpic">Haluatko todella asettaa tämän taustakuvan?</string>
+    <string name="want_pic">Haluatko todella asettaa tämän taustakuvan?</string>
     <string name="cat">Kissa</string>
     <string name="horse">Hevonen</string>
     <string name="dog">Koira</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Suodattimet</string>
     <string name="ContentText">Klikkaa sammuttaaksesi</string>
     <string name="text_filters">Näytön suodatin</string>
-    <string name="notsupport">Järjestelmäsi ei tue.</string>
+    <string name="not_support">Järjestelmäsi ei tue.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Mobiilisovellusten kehittäminen</string>
-    <string name="tetxt_about">Tietoa meistä</string>
+    <string name="text_about">Tietoa meistä</string>
     <string name="text_contact">Ota yhteyttä</string>
     <string name="text_bug">Ilmoita virheestä</string>
     <string name="text_share">Jaa</string>

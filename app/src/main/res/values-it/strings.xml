@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Cambia in modalità luce!</string>
     <string name="light_mode_active">La modalità luce è attiva!</string>
     <string name="dark_mode_active">Il modo scuro è attivo!</string>
-    <string name="systeminsettings">Cambia il tema direttamente sul tuo dispositivo.</string>
+    <string name="system_in_settings">Cambia il tema direttamente sul tuo dispositivo.</string>
     <string name="ChangerTheme">Cambio di tema</string>
     <string name="DarkModeShortcut">Scorciatoia</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Pianificatore</string>
     <string name="filter">Filtri</string>
     <string name="select">Seleziona</string>
-    <string name="stoptheme">Sospeso!</string>
-    <string name="starttheme">Impostato!</string>
+    <string name="stop_theme">Sospeso!</string>
+    <string name="start_theme">Impostato!</string>
     <string name="set_dark_mode">MODALITÀ SCURA IMPOSTATA</string>
     <string name="set_light_mode">MODALITÀ LUCE IMPOSTATA</string>
     <string name="on_time">Tempo di accensione</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED nero</string>
     <string name="flower">Fiore bianco</string>
     <string name="moon">Luna con aereo</string>
-    <string name="wantpic">Vuoi davvero impostare questo sfondo?</string>
+    <string name="want_pic">Vuoi davvero impostare questo sfondo?</string>
     <string name="cat">Gatto</string>
     <string name="horse">Cavallo</string>
     <string name="dog">Cane</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtri</string>
     <string name="ContentText">Clicca per spegnere</string>
     <string name="text_filters">Filtro a schermo</string>
-    <string name="notsupport">Il tuo sistema non supporta.</string>
+    <string name="not_support">Il tuo sistema non supporta.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Sviluppo di applicazioni mobili</string>
-    <string name="tetxt_about">Chi siamo</string>
+    <string name="text_about">Chi siamo</string>
     <string name="text_contact">Contattateci</string>
     <string name="text_bug">Segnala un bug</string>
     <string name="text_share">Condividi</string>

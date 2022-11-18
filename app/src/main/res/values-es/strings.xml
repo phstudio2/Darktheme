@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">¡Cambia a modo de luz!</string>
     <string name="light_mode_active">¡El modo luz está activo!</string>
     <string name="dark_mode_active">¡El modo oscuro está activo!</string>
-    <string name="systeminsettings">Cambia el tema directamente en tu dispositivo.</string>
+    <string name="system_in_settings">Cambia el tema directamente en tu dispositivo.</string>
     <string name="ChangerTheme">Cambiador de temas</string>
     <string name="DarkModeShortcut">Atajo</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Programador</string>
     <string name="filter">Filtros</string>
     <string name="select">Seleccionar</string>
-    <string name="stoptheme">¡Suspendido!</string>
-    <string name="starttheme">¡Set!</string>
+    <string name="stop_theme">¡Suspendido!</string>
+    <string name="start_theme">¡Set!</string>
     <string name="set_dark_mode">MODO OSCURO ESTABLECIDO</string>
     <string name="set_light_mode">MODO DE LUZ ESTABLECIDO</string>
     <string name="on_time">Tiempo de encendido</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED negro</string>
     <string name="flower">Flor blanca</string>
     <string name="moon">Luna con avión</string>
-    <string name="wantpic">¿De verdad quieres poner este fondo de pantalla?</string>
+    <string name="want_pic">¿De verdad quieres poner este fondo de pantalla?</string>
     <string name="cat">Gato</string>
     <string name="horse">Caballo</string>
     <string name="dog">Perro</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filtros</string>
     <string name="ContentText">Haga clic para desactivar</string>
     <string name="text_filters">Filtro de pantalla</string>
-    <string name="notsupport">Su sistema no es compatible.</string>
+    <string name="not_support">Su sistema no es compatible.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Desarrollo de aplicaciones móviles</string>
-    <string name="tetxt_about">Sobre nosotros</string>
+    <string name="text_about">Sobre nosotros</string>
     <string name="text_contact">Contacto con nosotros</string>
     <string name="text_bug">Informar de un error</string>
     <string name="text_share">Compartir</string>

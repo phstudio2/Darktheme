@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Перейдите в режим освещения!</string>
     <string name="light_mode_active">Режим освещения активен!</string>
     <string name="dark_mode_active">Темный режим активен!</string>
-    <string name="systeminsettings">Изменение темы непосредственно на вашем устройстве.</string>
+    <string name="system_in_settings">Изменение темы непосредственно на вашем устройстве.</string>
     <string name="ChangerTheme">Смена темы</string>
     <string name="DarkModeShortcut">Представитель</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Планировщик</string>
     <string name="filter">Фильтры</string>
     <string name="select">Select</string>
-    <string name="stoptheme">Приостановлено!</string>
-    <string name="starttheme">Задавать!</string>
+    <string name="stop_theme">Приостановлено!</string>
+    <string name="start_theme">Задавать!</string>
     <string name="set_dark_mode">УСТАНОВКА ТЕМНОГО РЕЖИМА</string>
     <string name="set_light_mode">УСТАНОВКА РЕЖИМА ОСВЕЩЕНИЯ</string>
     <string name="on_time">Время включения питания</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED черный</string>
     <string name="flower">Белый цветок</string>
     <string name="moon">Луна с самолетом</string>
-    <string name="wantpic">Вы действительно хотите установить эти обои?</string>
+    <string name="want_pic">Вы действительно хотите установить эти обои?</string>
     <string name="cat">Кот</string>
     <string name="horse">Лошадь</string>
     <string name="dog">Собака</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Фильтры</string>
     <string name="ContentText">Нажмите, чтобы выключить</string>
     <string name="text_filters">Сетчатый фильтр</string>
-    <string name="notsupport">Ваша система не поддерживает.</string>
+    <string name="not_support">Ваша система не поддерживает.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Разработка мобильных приложений</string>
-    <string name="tetxt_about">О нас</string>
+    <string name="text_about">О нас</string>
     <string name="text_contact">Свяжитесь с нами</string>
     <string name="text_bug">Сообщить об ошибке</string>
     <string name="text_share">Поделиться</string>

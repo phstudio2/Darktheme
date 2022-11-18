@@ -1,0 +1,3 @@
+-Added slider to adjust color filter intensity
+-Newer device support
+-Minor bugs fixed

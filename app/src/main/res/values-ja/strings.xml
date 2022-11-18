@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">ライトモードに変更!</string>
     <string name="light_mode_active">ライトモードがアクティブになりました</string>
     <string name="dark_mode_active">ダークモードが有効です。</string>
-    <string name="systeminsettings">端末で直接テーマを変更することができます。</string>
+    <string name="system_in_settings">端末で直接テーマを変更することができます。</string>
     <string name="ChangerTheme">テーマチェンジャー</string>
     <string name="DarkModeShortcut">ショートカット</string>
     <string name="AM">午前</string>
@@ -21,8 +21,8 @@
     <string name="schedule">スケジューラー</string>
     <string name="filter">フィルター</string>
     <string name="select">セレクト</string>
-    <string name="stoptheme">停止！</string>
-    <string name="starttheme">設定！</string>
+    <string name="stop_theme">停止！</string>
+    <string name="start_theme">設定！</string>
     <string name="set_dark_mode">ダークモードセット</string>
     <string name="set_light_mode">ライトモードセット</string>
     <string name="on_time">パワーオンタイム</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLEDブラック</string>
     <string name="flower">白い花</string>
     <string name="moon">飛行機のある月</string>
-    <string name="wantpic">本当にこの壁紙を設定したいのですか？</string>
+    <string name="want_pic">本当にこの壁紙を設定したいのですか？</string>
     <string name="cat">猫</string>
     <string name="horse">馬</string>
     <string name="dog">犬</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">フィルター</string>
     <string name="ContentText">クリックすると電源が切れます</string>
     <string name="text_filters">スクリーンフィルター</string>
-    <string name="notsupport">あなたのシステムはサポートしていません。</string>
+    <string name="not_support">あなたのシステムはサポートしていません。</string>
 
     <!-- Dialog layout -->
     <string name="application_development">モバイルアプリケーション開発</string>
-    <string name="tetxt_about">私たちについて</string>
+    <string name="text_about">私たちについて</string>
     <string name="text_contact">お問い合わせ</string>
     <string name="text_bug">バグを報告する</string>
     <string name="text_share">シェア</string>

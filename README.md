@@ -12,7 +12,10 @@
 </table>
 
 ## Available for download
-[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.phstudio.darktheme) [![Galaxy Store](https://shields.io/badge/Galaxy%20Store-e013a0?style=for-the-badge)](https://galaxy.store/dark5) [![F-droid](https://img.shields.io/badge/F%20Droid-1976D2?style=for-the-badge&logo=f-droid&logoColor=white)](https://f-droid.org/en/packages/com.phstudio.darktheme)
+[![Google Play](https://img.shields.io/badge/Google_Play-414141?style=for-the-badge&logo=google-play&logoColor=white)](https://play.google.com/store/apps/details?id=com.phstudio.darktheme) [![Galaxy Store](https://shields.io/badge/Galaxy%20Store-e013a0?style=for-the-badge&logo=samsung&logoColor=white)](https://galaxystore.samsung.com/detail/com.phstudio.darktheme) [![F-droid](https://img.shields.io/badge/F%20Droid-1976D2?style=for-the-badge&logo=f-droid&logoColor=white)](https://f-droid.org/en/packages/com.phstudio.darktheme) [![APK](https://shields.io/badge/APK-7MB-58a6ff?style=for-the-badge&logo=github&logoColor=white)](https://github.com/phstudio2/Darktheme/releases/download/2.5/Darktheme2-5.apk)
+
+## Video preview
+[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/lm1OlARBgaM)
 
 ## Screenshot preview
 <div style="display:flex;">
@@ -23,9 +26,3 @@
  <img alt="App image" src="https://github.com/phstudio2/Darktheme/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/shot_05.png?raw=true" width="30%">
  <img alt="App image" src="https://github.com/phstudio2/Darktheme/blob/master/fastlane/metadata/android/en-US/images/phoneScreenshots/shot_06.png?raw=true" width="30%">
 </div>
-
-## Video preview
-[![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/lm1OlARBgaM)
-
-## More information
-More information can be found on our old website -> https://phstudio2.webnode.com/dark-theme

@@ -8,48 +8,48 @@
     android:layout_marginEnd="16dp"
     android:background="@color/design4"
     android:gravity="center"
-    tools:context=".Fragments.SchedulerFragment">
+    tools:context=".fragments.SchedulerFragment">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/layout_textbckg" />
+        android:background="@drawable/layout_text_background" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignTop="@+id/l_ontime"
-        android:layout_alignBottom="@+id/l_ontime"
+        android:layout_alignTop="@+id/llOn"
+        android:layout_alignBottom="@+id/llOn"
         android:layout_marginStart="16dp"
         android:layout_marginTop="-16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="-16dp"
-        android:background="@drawable/layout_texttime" />
+        android:background="@drawable/layout_text_time" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignTop="@+id/l_offtime"
-        android:layout_alignBottom="@+id/l_offtime"
+        android:layout_alignTop="@+id/llOff"
+        android:layout_alignBottom="@+id/llOff"
         android:layout_marginStart="16dp"
         android:layout_marginTop="-16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="-16dp"
-        android:background="@drawable/layout_texttime" />
+        android:background="@drawable/layout_text_time" />
 
     <View
-        android:id="@+id/v_center"
+        android:id="@+id/vCenter"
         android:layout_width="1dp"
         android:layout_height="1dp"
         android:layout_centerInParent="true" />
 
     <LinearLayout
-        android:id="@+id/l_ontime"
+        android:id="@+id/llOn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/v_center"
+        android:layout_above="@+id/vCenter"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="25dp"
         android:gravity="center"
@@ -69,31 +69,30 @@
             app:fontFamily="@font/ubuntu" />
 
         <Button
-            android:id="@+id/timedark"
+            android:id="@+id/btTimeDark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:text="@string/timenull"
+            android:text="@string/time_null"
             android:textColor="@color/design6"
             android:textSize="23sp"
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/buttondark"
+            android:id="@+id/ibTimeDark"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
             android:contentDescription="@string/on_time"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/on" />
+            app:srcCompat="@drawable/ic_on" />
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/l_offtime"
-
+        android:id="@+id/llOff"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/v_center"
+        android:layout_below="@id/vCenter"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="16dp"
         android:gravity="center"
@@ -113,23 +112,23 @@
             app:backgroundTint="@null" />
 
         <Button
-            android:id="@+id/timelight"
+            android:id="@+id/btTimeLight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
-            android:text="@string/timenull"
+            android:text="@string/time_null"
             android:textColor="@color/design6"
             android:textSize="23sp"
             android:textStyle="bold" />
 
         <ImageButton
-            android:id="@+id/buttonlight"
+            android:id="@+id/ibTimeLight"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@null"
             android:contentDescription="@string/off_time"
             android:scaleType="fitCenter"
-            app:srcCompat="@drawable/on" />
+            app:srcCompat="@drawable/ic_on" />
     </LinearLayout>
 
 </RelativeLayout>

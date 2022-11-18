@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Byt till ljusläge!</string>
     <string name="light_mode_active">Ljusläget är aktivt!</string>
     <string name="dark_mode_active">Det mörka läget är aktivt!</string>
-    <string name="systeminsettings">Ändra temat direkt på din enhet.</string>
+    <string name="system_in_settings">Ändra temat direkt på din enhet.</string>
     <string name="ChangerTheme">Temaändrare</string>
     <string name="DarkModeShortcut">Genväg</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Schemaläggare</string>
     <string name="filter">Filter</string>
     <string name="select">Välj</string>
-    <string name="stoptheme">Avstängd!</string>
-    <string name="starttheme">Set!</string>
+    <string name="stop_theme">Avstängd!</string>
+    <string name="start_theme">Set!</string>
     <string name="set_dark_mode">MÖRKT LÄGE INSTÄLLT</string>
     <string name="set_light_mode">LJUSLÄGE INSTÄLLT</string>
     <string name="on_time">Tändningstid</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED svart</string>
     <string name="flower">Vit blomma</string>
     <string name="moon">Månen med flygplan</string>
-    <string name="wantpic">Vill du verkligen ställa in den här tapeten?</string>
+    <string name="want_pic">Vill du verkligen ställa in den här tapeten?</string>
     <string name="cat">Kat</string>
     <string name="horse">Häst</string>
     <string name="dog">Hund</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Filter</string>
     <string name="ContentText">Klicka för att stänga av</string>
     <string name="text_filters">Skärmfilter</string>
-    <string name="notsupport">Ditt system har inte stöd för.</string>
+    <string name="not_support">Ditt system har inte stöd för.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Utveckling av mobila applikationer</string>
-    <string name="tetxt_about">Om oss</string>
+    <string name="text_about">Om oss</string>
     <string name="text_contact">Kontakta oss</string>
     <string name="text_bug">Rapportera ett fel</string>
     <string name="text_share">Dela</string>

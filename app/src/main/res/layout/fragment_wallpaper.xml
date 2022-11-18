@@ -6,28 +6,28 @@
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
     android:background="@color/design4"
-    tools:context=".Fragments.WallpaperFragment">
+    tools:context=".fragments.WallpaperFragment">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/layout_textbckg" />
+        android:background="@drawable/layout_text_background" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignTop="@+id/simpleGallery"
-        android:layout_alignBottom="@+id/simpleGallery"
+        android:layout_alignTop="@+id/hsvGallery"
+        android:layout_alignBottom="@+id/hsvGallery"
         android:layout_marginStart="16dp"
         android:layout_marginTop="-16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="-16dp"
-        android:background="@drawable/layout_texttime" />
+        android:background="@drawable/layout_text_time" />
 
     <HorizontalScrollView
-        android:id="@+id/simpleGallery"
+        android:id="@+id/hsvGallery"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
@@ -42,7 +42,7 @@
             android:orientation="horizontal">
 
             <ImageButton
-                android:id="@+id/buttonblack"
+                android:id="@+id/ibBlack"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -52,7 +52,7 @@
                 app:srcCompat="@drawable/black" />
 
             <ImageButton
-                android:id="@+id/buttonflower"
+                android:id="@+id/ibFlower"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -62,7 +62,7 @@
                 app:srcCompat="@drawable/flower" />
 
             <ImageButton
-                android:id="@+id/buttonmoon"
+                android:id="@+id/ibMoon"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -72,7 +72,7 @@
                 app:srcCompat="@drawable/moon" />
 
             <ImageButton
-                android:id="@+id/buttoncat"
+                android:id="@+id/ibCat"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -82,7 +82,7 @@
                 app:srcCompat="@drawable/cat" />
 
             <ImageButton
-                android:id="@+id/buttonhorse"
+                android:id="@+id/ibHorse"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -92,7 +92,7 @@
                 app:srcCompat="@drawable/horse" />
 
             <ImageButton
-                android:id="@+id/buttondog"
+                android:id="@+id/ibDog"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -102,7 +102,7 @@
                 app:srcCompat="@drawable/dog" />
 
             <ImageButton
-                android:id="@+id/buttonfire"
+                android:id="@+id/ibFire"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -112,7 +112,7 @@
                 app:srcCompat="@drawable/fire" />
 
             <ImageButton
-                android:id="@+id/buttongirl"
+                android:id="@+id/ibGirl"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"
@@ -122,7 +122,7 @@
                 app:srcCompat="@drawable/girl" />
 
             <ImageButton
-                android:id="@+id/buttonbulb"
+                android:id="@+id/ibBulb"
                 android:layout_width="320dp"
                 android:layout_height="wrap_content"
                 android:background="@null"

@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Αλλαγή σε λειτουργία φωτός!</string>
     <string name="light_mode_active">Η λειτουργία φωτισμού είναι ενεργή!</string>
     <string name="dark_mode_active">Η σκοτεινή λειτουργία είναι ενεργή!</string>
-    <string name="systeminsettings">Αλλάξτε το θέμα απευθείας στη συσκευή σας.</string>
+    <string name="system_in_settings">Αλλάξτε το θέμα απευθείας στη συσκευή σας.</string>
     <string name="ChangerTheme">Αλλαγή θέματος</string>
     <string name="DarkModeShortcut">Συντόμευση</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Scheduler</string>
     <string name="filter">Φίλτρα</string>
     <string name="select">Επιλέξτε</string>
-    <string name="stoptheme">Σε αναστολή!</string>
-    <string name="starttheme">Ορίσετε!</string>
+    <string name="stop_theme">Σε αναστολή!</string>
+    <string name="start_theme">Ορίσετε!</string>
     <string name="set_dark_mode">ΡΎΘΜΙΣΗ ΣΚΟΤΕΙΝΉΣ ΛΕΙΤΟΥΡΓΊΑΣ</string>
     <string name="set_light_mode">ΕΛΑΦΡΎ ΣΎΝΟΛΟ ΤΡΌΠΟΥ</string>
     <string name="on_time">Χρόνος ενεργοποίησης</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED μαύρο</string>
     <string name="flower">Λευκό λουλούδι</string>
     <string name="moon">Σελήνη με αεροπλάνο</string>
-    <string name="wantpic">Θέλετε πραγματικά να ορίσετε αυτή την ταπετσαρία;</string>
+    <string name="want_pic">Θέλετε πραγματικά να ορίσετε αυτή την ταπετσαρία;</string>
     <string name="cat">Γάτα</string>
     <string name="horse">Άλογο</string>
     <string name="dog">Σκύλος</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Φίλτρα</string>
     <string name="ContentText">Κάντε κλικ για να απενεργοποιήσετε</string>
     <string name="text_filters">Φίλτρο οθόνης</string>
-    <string name="notsupport">Το σύστημά σας δεν υποστηρίζει.</string>
+    <string name="not_support">Το σύστημά σας δεν υποστηρίζει.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Ανάπτυξη εφαρμογών κινητής τηλεφωνίας</string>
-    <string name="tetxt_about">Σχετικά με εμάς</string>
+    <string name="text_about">Σχετικά με εμάς</string>
     <string name="text_contact">Επικοινωνήστε μαζί μας</string>
     <string name="text_bug">Αναφέρετε ένα σφάλμα</string>
     <string name="text_share">Μοιραστείτε το</string>

@@ -6,27 +6,27 @@
 
     <fragment
         android:id="@+id/changerFragment"
-        android:name="com.phstudio.darktheme.Fragments.ChangerFragment"
+        android:name="com.phstudio.darktheme.fragments.ChangerFragment"
         android:label="fragment_changer"
         tools:layout="@layout/fragment_changer" />
     <fragment
         android:id="@+id/filterFragment"
-        android:name="com.phstudio.darktheme.Fragments.FilterFragment"
+        android:name="com.phstudio.darktheme.fragments.FilterFragment"
         android:label="fragment_filter"
         tools:layout="@layout/fragment_filter" />
     <fragment
         android:id="@+id/wallpaperFragment"
-        android:name="com.phstudio.darktheme.Fragments.WallpaperFragment"
+        android:name="com.phstudio.darktheme.fragments.WallpaperFragment"
         android:label="fragment_wallpaper"
         tools:layout="@layout/fragment_wallpaper" />
     <fragment
         android:id="@+id/schedulerFragment"
-        android:name="com.phstudio.darktheme.Fragments.SchedulerFragment"
+        android:name="com.phstudio.darktheme.fragments.SchedulerFragment"
         android:label="fragment_scheduler"
         tools:layout="@layout/fragment_scheduler" />
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.phstudio.darktheme.Fragments.SettingsFragment"
+        android:name="com.phstudio.darktheme.fragments.AboutFragment"
         android:label="fragment_settings"
-        tools:layout="@layout/fragment_settings" />
+        tools:layout="@layout/fragment_about" />
 </navigation>

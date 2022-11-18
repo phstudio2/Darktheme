@@ -8,31 +8,31 @@
     android:layout_marginEnd="16dp"
     android:background="@color/design4"
     android:gravity="center"
-    tools:context=".Fragments.ChangerFragment">
+    tools:context=".fragments.ChangerFragment">
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
-        android:background="@drawable/layout_textbckg" />
+        android:background="@drawable/layout_text_background" />
 
     <View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignTop="@+id/infotext"
-        android:layout_alignBottom="@+id/changer"
+        android:layout_alignTop="@+id/tvMode"
+        android:layout_alignBottom="@+id/btChanger"
         android:layout_marginStart="16dp"
         android:layout_marginTop="-16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="-16dp"
-        android:background="@drawable/layout_texttime" />
+        android:background="@drawable/layout_text_time" />
 
     <TextView
-        android:id="@+id/infotext"
+        android:id="@+id/tvMode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/gifImageView"
+        android:layout_above="@+id/givMode"
         android:layout_centerHorizontal="true"
         android:background="@drawable/layout_text"
         android:padding="10dp"
@@ -45,7 +45,7 @@
         app:fontFamily="@font/ubuntu" />
 
     <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/gifImageView"
+        android:id="@+id/givMode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
@@ -56,12 +56,12 @@
         android:src="@drawable/changer" />
 
     <Button
-        android:id="@+id/changer"
+        android:id="@+id/btChanger"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/gifImageView"
+        android:layout_below="@+id/givMode"
         android:layout_centerHorizontal="true"
-        android:background="@drawable/layout_displaybutton"
+        android:background="@drawable/layout_display_button"
         android:fontFamily="@font/ubuntu"
         android:padding="10dp"
         android:text="@string/change_to_dark_mode"

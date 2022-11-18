@@ -13,11 +13,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(layout.activity_main)
-        val nav = findViewById<BottomNavigationView>(id.bottom_navigation)
-        val navController = findNavController(this, id.fragment_container)
+        val nav = findViewById<BottomNavigationView>(id.bnMain)
+        val navController = findNavController(this, id.fcMain)
         nav.setupWithNavController(navController)
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onBackPressed() {
         val dialogBuilder = AlertDialog.Builder(this)
         dialogBuilder.setIcon(mipmap.ic_launcher_round)

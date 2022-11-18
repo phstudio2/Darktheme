@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">Превключване към светлинен режим!</string>
     <string name="light_mode_active">Светлинният режим е активен!</string>
     <string name="dark_mode_active">Тъмният режим е активен!</string>
-    <string name="systeminsettings">Променете темата директно на устройството си.</string>
+    <string name="system_in_settings">Променете темата директно на устройството си.</string>
     <string name="ChangerTheme">Смяна на темата</string>
     <string name="DarkModeShortcut">Говорител</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">Планер</string>
     <string name="filter">Филтри</string>
     <string name="select">Говорител</string>
-    <string name="stoptheme">Отстранен!</string>
-    <string name="starttheme">Готово!</string>
+    <string name="stop_theme">Отстранен!</string>
+    <string name="start_theme">Готово!</string>
     <string name="set_dark_mode">ТЪМЕН РЕЖИМ</string>
     <string name="set_light_mode">РЕЖИМ НА ОСВЕТЛЕНИЕ</string>
     <string name="on_time">Време за включване на захранването</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED черен</string>
     <string name="flower">Бял цвят</string>
     <string name="moon">Луна със самолет</string>
-    <string name="wantpic">Наистина ли искате да поставите този тапет?</string>
+    <string name="want_pic">Наистина ли искате да поставите този тапет?</string>
     <string name="cat">Котка</string>
     <string name="horse">Кон</string>
     <string name="dog">Куче</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">Филтри</string>
     <string name="ContentText">Кликнете, за да изключите</string>
     <string name="text_filters">Екранен филтър</string>
-    <string name="notsupport">Вашата система не поддържа.</string>
+    <string name="not_support">Вашата система не поддържа.</string>
 
     <!-- Dialog layout -->
     <string name="application_development">Разработване на приложения</string>
-    <string name="tetxt_about">За</string>
+    <string name="text_about">За</string>
     <string name="text_contact">Свържете се с</string>
     <string name="text_bug">Докладване на грешка</string>
     <string name="text_share">Споделяне на</string>

@@ -12,7 +12,7 @@
     <string name="change_to_light_mode">改成灯光模式!</string>
     <string name="light_mode_active">灯光模式已激活!</string>
     <string name="dark_mode_active">黑暗模式已激活!</string>
-    <string name="systeminsettings">直接在你的设备上改变主题。</string>
+    <string name="system_in_settings">直接在你的设备上改变主题。</string>
     <string name="ChangerTheme">主题更换器</string>
     <string name="DarkModeShortcut">捷径</string>
     <string name="AM">AM</string>
@@ -21,8 +21,8 @@
     <string name="schedule">调度程序</string>
     <string name="filter">过滤器</string>
     <string name="select">选择</string>
-    <string name="stoptheme">暂停!</string>
-    <string name="starttheme">设置!</string>
+    <string name="stop_theme">暂停!</string>
+    <string name="start_theme">设置!</string>
     <string name="set_dark_mode">黑暗模式设置</string>
     <string name="set_light_mode">灯光模式设置</string>
     <string name="on_time">通电时间</string>
@@ -30,7 +30,7 @@
     <string name="amoled">AMOLED黑色</string>
     <string name="flower">白花</string>
     <string name="moon">月亮与飞机</string>
-    <string name="wantpic">你真的想设置这个墙纸吗？</string>
+    <string name="want_pic">你真的想设置这个墙纸吗？</string>
     <string name="cat">猫</string>
     <string name="horse">马</string>
     <string name="dog">狗</string>
@@ -43,11 +43,11 @@
     <string name="CHANNEL_NAME">过滤器</string>
     <string name="ContentText">点击关闭</string>
     <string name="text_filters">屏幕过滤器</string>
-    <string name="notsupport">你的系统不支持。</string>
+    <string name="not_support">你的系统不支持。</string>
 
     <!-- Dialog layout -->
     <string name="application_development">移动应用开发</string>
-    <string name="tetxt_about">关于我们</string>
+    <string name="text_about">关于我们</string>
     <string name="text_contact">联系我们</string>
     <string name="text_bug">报告一个错误</string>
     <string name="text_share">分享</string>

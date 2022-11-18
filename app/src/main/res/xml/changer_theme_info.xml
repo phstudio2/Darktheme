@@ -4,7 +4,7 @@
     android:initialLayout="@layout/changer_theme"
     android:minWidth="150dp"
     android:minHeight="40dp"
-    android:previewImage="@drawable/darkmodechangertheme"
+    android:previewImage="@drawable/dark_mode_changer_theme"
     android:resizeMode="horizontal|vertical"
     android:updatePeriodMillis="86400000"
     android:widgetCategory="home_screen" />
