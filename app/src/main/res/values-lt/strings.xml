@@ -55,4 +55,6 @@
     <string name="text_privacy">Privatumo politika</string>
     <string name="text_terms">Taisyklės ir sąlygos</string>
     <string name="text_settings">Nustatymai</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

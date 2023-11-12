@@ -55,4 +55,6 @@
     <string name="text_privacy">Integritetspolicy</string>
     <string name="text_terms">Villkor och bestämmelser</string>
     <string name="text_settings">Inställningar</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

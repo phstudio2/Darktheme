@@ -1,0 +1,2 @@
+-Newer device support
+-Minor bugs fixed

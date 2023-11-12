@@ -55,4 +55,6 @@
     <string name="text_privacy">Tietosuojakäytäntö</string>
     <string name="text_terms">Ehdot ja edellytykset</string>
     <string name="text_settings">Asetukset</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

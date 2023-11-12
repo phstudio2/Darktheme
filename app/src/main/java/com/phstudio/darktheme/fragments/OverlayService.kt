@@ -34,8 +34,10 @@ class OverlayService : Service() {
 
     @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
         val notification = MyNotification.build(this)
         startForeground(1, notification)
+        }
         overlayView = OverlayView.onCreate(this)
 
     }

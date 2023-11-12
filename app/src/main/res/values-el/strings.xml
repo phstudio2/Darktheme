@@ -55,4 +55,6 @@
     <string name="text_privacy">Πολιτική απορρήτου</string>
     <string name="text_terms">Όροι και Προϋποθέσεις</string>
     <string name="text_settings">Ρυθμίσεις</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

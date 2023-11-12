@@ -55,4 +55,6 @@
     <string name="text_privacy">Privacybeleid</string>
     <string name="text_terms">Voorwaarden en Condities</string>
     <string name="text_settings">Instellingen</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

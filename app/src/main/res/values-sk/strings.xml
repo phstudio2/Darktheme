@@ -55,4 +55,6 @@
     <string name="text_privacy">Zásady ochrany osobných údajov</string>
     <string name="text_terms">Podmienky a pravidlá</string>
     <string name="text_settings">Nastavenia</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

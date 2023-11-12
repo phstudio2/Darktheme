@@ -55,4 +55,6 @@
     <string name="text_privacy">Pravilnik o zasebnosti</string>
     <string name="text_terms">Pogoji in določila</string>
     <string name="text_settings">Nastavitve</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

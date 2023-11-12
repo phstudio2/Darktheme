@@ -9,6 +9,7 @@ import android.provider.Settings
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.SeekBar
 import android.widget.Toast
 import android.widget.ToggleButton
@@ -35,6 +36,7 @@ class FilterFragment : Fragment() {
             .getSharedPreferences(resources.getString(R.string.app_package), Context.MODE_PRIVATE)
         val editor = sharedPreferences.edit()
         val tgbFilters = view.findViewById<ToggleButton>(R.id.tgbFilters)
+        val btReset = view.findViewById<Button>(R.id.btReset)
 
         val seek = view.findViewById<SeekBar>(R.id.sbSun)
         seek?.setOnSeekBarChangeListener(object :
@@ -129,6 +131,37 @@ class FilterFragment : Fragment() {
                     }
                 }
             }
+        }
+
+        btReset.setOnClickListener {
+            tgbFilters.isChecked = false
+
+            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+                OverlayService.stop(requireContext())
+            } else {
+                Toast.makeText(
+                    context,
+                    resources.getString(R.string.not_support),
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+
+            editor.putInt("color0", 50).apply()
+            editor.putInt("color", 0).apply()
+
+            editor.putInt("color1", 30).apply()
+            editor.putInt("color", 1).apply()
+
+            editor.putInt("color2", 80).apply()
+            editor.putInt("color", 2).apply()
+
+            val color0Reset = sharedPreferences.getInt("color0", 50)
+            val color1Reset = sharedPreferences.getInt("color1", 30)
+            val color2Reset = sharedPreferences.getInt("color2", 80)
+
+            seek.progress = (color0Reset / 2.55).toInt()
+            seek2.progress = (color1Reset / 2.55).toInt()
+            seek3.progress = (color2Reset / 2.55).toInt()
         }
     }
 

@@ -55,4 +55,6 @@
     <string name="text_privacy">Polityka prywatnościy</string>
     <string name="text_terms">Zasady i warunki</string>
     <string name="text_settings">Ustawienia</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

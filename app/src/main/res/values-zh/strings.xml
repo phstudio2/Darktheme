@@ -55,4 +55,6 @@
     <string name="text_privacy">隐私政策</string>
     <string name="text_terms">条款和条件</string>
     <string name="text_settings">设置</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

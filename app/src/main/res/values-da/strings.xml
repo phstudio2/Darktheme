@@ -55,4 +55,6 @@
     <string name="text_privacy">Politik om beskyttelse af personlige oplysninger</string>
     <string name="text_terms">Vilkår og betingelser</string>
     <string name="text_settings">Indstillinger</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

@@ -55,4 +55,6 @@
     <string name="text_privacy">Konfidencialitātes politika</string>
     <string name="text_terms">Noteikumi un nosacījumi</string>
     <string name="text_settings">Iestatījumi</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

@@ -1,270 +1,243 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:layout_gravity="center"
     android:background="@color/design4">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/layout_text_background"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
-        android:layout_marginBottom="20dp"
-        android:background="@drawable/layout_text_background"
-        android:paddingBottom="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_marginBottom="16dp"
+        android:gravity="center">
 
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/glLeft"
-            android:layout_width="wrap_content"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_begin="20dp" />
-
-        <androidx.constraintlayout.widget.Guideline
-            android:id="@+id/glRight"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintGuide_percent="0.9557292" />
-
-        <View
-            android:id="@+id/vTop"
-            android:layout_width="0dp"
-            android:layout_height="130dp"
-            android:layout_marginTop="60dp"
-            android:background="@drawable/layout_text_time"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/ivDeveloper"
-            android:layout_width="0dp"
-            android:layout_height="108dp"
-            android:contentDescription="@string/about"
-            app:layout_constraintBottom_toTopOf="@+id/vTop"
-            app:layout_constraintDimensionRatio="w,1:1"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toTopOf="@+id/vTop"
-            app:srcCompat="@drawable/ic_profile" />
-
-        <TextView
-            android:id="@+id/tvDeveloper"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="@font/ubuntu"
-            android:text="@string/developer_name"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:layout_constraintEnd_toEndOf="@+id/ivDeveloper"
-            app:layout_constraintStart_toStartOf="@+id/ivDeveloper"
-            app:layout_constraintTop_toBottomOf="@+id/ivDeveloper" />
-
-        <TextView
-            android:id="@+id/tvApplicationDevelopment"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginEnd="8dp"
-            android:fontFamily="@font/ubuntu"
-            android:text="@string/application_development"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="12sp"
-            android:textStyle="italic"
-            app:layout_constraintEnd_toEndOf="@+id/tvDeveloper"
-            app:layout_constraintStart_toStartOf="@+id/tvDeveloper"
-            app:layout_constraintTop_toBottomOf="@+id/tvDeveloper" />
-
-        <ImageButton
-            android:id="@+id/ibWebsite"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_marginEnd="16dp"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/text_settings"
-            app:layout_constraintEnd_toStartOf="@+id/ivDeveloper"
-            app:layout_constraintTop_toTopOf="@+id/vTop"
-            app:srcCompat="@drawable/ic_website"
-            tools:ignore="VectorDrawableCompat,DuplicateSpeakableTextCheck" />
-
-        <TextView
-            android:id="@+id/tvWebsite"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/ubuntu"
-            android:text="Website"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="@+id/ibWebsite"
-            app:layout_constraintStart_toStartOf="@+id/ibWebsite"
-            app:layout_constraintTop_toBottomOf="@+id/ibWebsite" />
-
-        <ImageButton
-            android:id="@+id/ibGitHub"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
             android:layout_marginStart="16dp"
             android:layout_marginLeft="16dp"
-            android:background="@android:color/transparent"
-            android:contentDescription="@string/text_contact"
-            app:layout_constraintStart_toEndOf="@+id/ivDeveloper"
-            app:layout_constraintTop_toTopOf="@+id/vTop"
-            app:srcCompat="@drawable/ic_github"
-            tools:ignore="VectorDrawableCompat" />
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp"
+            android:paddingBottom="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
 
-        <TextView
-            android:id="@+id/tvGitHub"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/ubuntu"
-            android:text="GitHub"
-            android:textAlignment="center"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="12sp"
-            app:layout_constraintEnd_toEndOf="@+id/ibGitHub"
-            app:layout_constraintStart_toStartOf="@+id/ibGitHub"
-            app:layout_constraintTop_toBottomOf="@+id/ibGitHub" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_begin="20dp" />
 
-        <TextView
-            android:id="@+id/tvApps"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="8dp"
-            android:background="@drawable/layout_text_time"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/ubuntu"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/text_apps"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_about1"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toBottomOf="@+id/vTop" />
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/glRight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.9557292" />
 
-        <TextView
-            android:id="@+id/tvBug"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/layout_text_time"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/ubuntu"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/text_bug"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_about6"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toBottomOf="@+id/tvApps" />
+            <View
+                android:id="@+id/vTop"
+                android:layout_width="0dp"
+                android:layout_height="130dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/layout_text_time"
+                app:layout_constraintEnd_toStartOf="@+id/glRight"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="@+id/glLeft"
+                app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tvShare"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/layout_text_time"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/ubuntu"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/text_share"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_about3"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toBottomOf="@+id/tvBug" />
+            <ImageView
+                android:id="@+id/ivDeveloper"
+                android:layout_width="0dp"
+                android:layout_height="108dp"
+                android:contentDescription="@string/about"
+                app:layout_constraintBottom_toTopOf="@+id/vTop"
+                app:layout_constraintDimensionRatio="w,1:1"
+                app:layout_constraintEnd_toStartOf="@+id/glRight"
+                app:layout_constraintStart_toStartOf="@+id/glLeft"
+                app:layout_constraintTop_toTopOf="@+id/vTop"
+                app:srcCompat="@drawable/ic_profile" />
 
-        <TextView
-            android:id="@+id/tvTelegram"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/layout_text_time"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/ubuntu"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="Telegram"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_about4"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toBottomOf="@+id/tvShare" />
+            <TextView
+                android:id="@+id/tvDeveloper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="@string/developer_name"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/ivDeveloper"
+                app:layout_constraintStart_toStartOf="@+id/ivDeveloper"
+                app:layout_constraintTop_toBottomOf="@+id/ivDeveloper" />
 
-        <TextView
-            android:id="@+id/tvPrivacy"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/layout_text_time"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/ubuntu"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/text_privacy"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_about7"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toBottomOf="@+id/tvTelegram" />
+            <TextView
+                android:id="@+id/tvApplicationDevelopment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:fontFamily="@font/ubuntu"
+                android:text="@string/application_development"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:textStyle="italic"
+                app:layout_constraintEnd_toEndOf="@+id/tvDeveloper"
+                app:layout_constraintStart_toStartOf="@+id/tvDeveloper"
+                app:layout_constraintTop_toBottomOf="@+id/tvDeveloper" />
 
-        <TextView
-            android:id="@+id/tvTerms"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="@drawable/layout_text_time"
-            android:drawablePadding="5dp"
-            android:fontFamily="@font/ubuntu"
-            android:gravity="center_vertical"
-            android:padding="10dp"
-            android:text="@string/text_terms"
-            android:textAllCaps="false"
-            android:textColor="@color/white"
-            android:textSize="18sp"
-            android:textStyle="bold"
-            app:drawableLeftCompat="@drawable/ic_about8"
-            app:layout_constraintEnd_toStartOf="@+id/glRight"
-            app:layout_constraintStart_toStartOf="@+id/glLeft"
-            app:layout_constraintTop_toBottomOf="@+id/tvPrivacy" />
+            <ImageButton
+                android:id="@+id/ibWebsite"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginEnd="16dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/text_settings"
+                app:layout_constraintEnd_toStartOf="@+id/ivDeveloper"
+                app:layout_constraintTop_toTopOf="@+id/vTop"
+                app:srcCompat="@drawable/ic_website"
+                tools:ignore="VectorDrawableCompat,DuplicateSpeakableTextCheck" />
 
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            <TextView
+                android:id="@+id/tvWebsite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu"
+                android:text="Website"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/ibWebsite"
+                app:layout_constraintStart_toStartOf="@+id/ibWebsite"
+                app:layout_constraintTop_toBottomOf="@+id/ibWebsite" />
 
-</ScrollView>
+            <ImageButton
+                android:id="@+id/ibGitHub"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginLeft="16dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="@string/text_contact"
+                app:layout_constraintStart_toEndOf="@+id/ivDeveloper"
+                app:layout_constraintTop_toTopOf="@+id/vTop"
+                app:srcCompat="@drawable/ic_github"
+                tools:ignore="VectorDrawableCompat" />
+
+            <TextView
+                android:id="@+id/tvGitHub"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/ubuntu"
+                android:text="GitHub"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                app:layout_constraintEnd_toEndOf="@+id/ibGitHub"
+                app:layout_constraintStart_toStartOf="@+id/ibGitHub"
+                app:layout_constraintTop_toBottomOf="@+id/ibGitHub" />
+
+            <TextView
+                android:id="@+id/tvTelegram"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/layout_text_time"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="Telegram"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_about4"
+                app:layout_constraintEnd_toStartOf="@+id/glRight"
+                app:layout_constraintStart_toStartOf="@+id/glLeft"
+                app:layout_constraintTop_toBottomOf="@+id/vTop" />
+
+            <TextView
+                android:id="@+id/tvShare"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/layout_text_time"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/text_share"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_about3"
+                app:layout_constraintEnd_toStartOf="@+id/glRight"
+                app:layout_constraintStart_toStartOf="@+id/glLeft"
+                app:layout_constraintTop_toBottomOf="@+id/tvTelegram" />
+
+            <TextView
+                android:id="@+id/tvPrivacy"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/layout_text_time"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/license"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_about7"
+                app:layout_constraintEnd_toStartOf="@+id/glRight"
+                app:layout_constraintStart_toStartOf="@+id/glLeft"
+                app:layout_constraintTop_toBottomOf="@+id/tvShare" />
+
+            <TextView
+                android:id="@+id/tvBug"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/layout_text_time"
+                android:drawablePadding="5dp"
+                android:fontFamily="@font/ubuntu"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/text_bug"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:drawableLeftCompat="@drawable/ic_about6"
+                app:layout_constraintEnd_toStartOf="@+id/glRight"
+                app:layout_constraintStart_toStartOf="@+id/glLeft"
+                app:layout_constraintTop_toBottomOf="@+id/tvPrivacy" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</RelativeLayout>

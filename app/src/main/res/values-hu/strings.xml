@@ -55,4 +55,6 @@
     <string name="text_privacy">Adatvédelmi irányelvek</string>
     <string name="text_terms">Feltételek és feltételek</string>
     <string name="text_settings">Beállítások</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>

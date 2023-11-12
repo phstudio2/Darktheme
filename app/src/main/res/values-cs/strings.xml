@@ -55,4 +55,6 @@
     <string name="text_privacy">Zásady ochrany osobních údajů</string>
     <string name="text_terms">Obchodní podmínky</string>
     <string name="text_settings">Nastavení</string>
+    <string name="license">Licence</string>
+    <string name="reset">Obnovit</string>
 </resources>

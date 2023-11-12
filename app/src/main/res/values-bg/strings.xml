@@ -55,4 +55,6 @@
     <string name="text_privacy">Политика за поверителност</string>
     <string name="text_terms">Правила и условия</string>
     <string name="text_settings">Настройки</string>
+    <string name="license">License</string>
+    <string name="reset">Reset</string>
 </resources>
