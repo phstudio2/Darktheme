@@ -110,7 +110,7 @@ class FilterFragment : Fragment() {
             isChecked = OverlayService.isActive
             setOnCheckedChangeListener { _, isChecked ->
                 if (isChecked) {
-                    if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+                    if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
                         OverlayService.start(context)
                     } else {
                         Toast.makeText(
@@ -120,7 +120,7 @@ class FilterFragment : Fragment() {
                         ).show()
                     }
                 } else {
-                    if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+                    if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
                         OverlayService.stop(context)
                     } else {
                         Toast.makeText(
@@ -136,7 +136,7 @@ class FilterFragment : Fragment() {
         btReset.setOnClickListener {
             tgbFilters.isChecked = false
 
-            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+            if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
                 OverlayService.stop(requireContext())
             } else {
                 Toast.makeText(
@@ -166,7 +166,7 @@ class FilterFragment : Fragment() {
     }
 
     private fun startView() {
-        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.M) {
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.O) {
             context?.let { OverlayService.start(it) }
         } else {
             Toast.makeText(
@@ -200,5 +200,5 @@ class FilterFragment : Fragment() {
     }
 
     private fun isOverlayGranted() =
-        Build.VERSION.SDK_INT < Build.VERSION_CODES.M || Settings.canDrawOverlays(context)
+        Build.VERSION.SDK_INT < Build.VERSION_CODES.O || Settings.canDrawOverlays(context)
 }

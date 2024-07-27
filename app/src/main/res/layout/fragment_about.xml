@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
-    android:background="@color/design4">
+    android:background="@color/design4"
+    android:fillViewport="true">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="@drawable/layout_text_background"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
-        android:gravity="center">
+        android:background="@drawable/layout_text_background"
+        android:gravity="center"
+        android:orientation="vertical">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -135,7 +135,6 @@
                 android:layout_width="50dp"
                 android:layout_height="50dp"
                 android:layout_marginStart="16dp"
-                android:layout_marginLeft="16dp"
                 android:background="@android:color/transparent"
                 android:contentDescription="@string/text_contact"
                 app:layout_constraintStart_toEndOf="@+id/ivDeveloper"
@@ -178,26 +177,6 @@
                 app:layout_constraintTop_toBottomOf="@+id/vTop" />
 
             <TextView
-                android:id="@+id/tvShare"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="5dp"
-                android:background="@drawable/layout_text_time"
-                android:drawablePadding="5dp"
-                android:fontFamily="@font/ubuntu"
-                android:gravity="center_vertical"
-                android:padding="10dp"
-                android:text="@string/text_share"
-                android:textAllCaps="false"
-                android:textColor="@color/white"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                app:drawableLeftCompat="@drawable/ic_about3"
-                app:layout_constraintEnd_toStartOf="@+id/glRight"
-                app:layout_constraintStart_toStartOf="@+id/glLeft"
-                app:layout_constraintTop_toBottomOf="@+id/tvTelegram" />
-
-            <TextView
                 android:id="@+id/tvPrivacy"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -215,7 +194,7 @@
                 app:drawableLeftCompat="@drawable/ic_about7"
                 app:layout_constraintEnd_toStartOf="@+id/glRight"
                 app:layout_constraintStart_toStartOf="@+id/glLeft"
-                app:layout_constraintTop_toBottomOf="@+id/tvShare" />
+                app:layout_constraintTop_toBottomOf="@+id/tvTelegram" />
 
             <TextView
                 android:id="@+id/tvBug"
@@ -240,4 +219,4 @@
         </androidx.constraintlayout.widget.ConstraintLayout>
     </LinearLayout>
 
-</RelativeLayout>
+</ScrollView>

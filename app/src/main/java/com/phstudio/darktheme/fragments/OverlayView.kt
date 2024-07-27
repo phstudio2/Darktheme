@@ -4,10 +4,12 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.graphics.Color
 import android.graphics.PixelFormat
+import android.os.Build
 import android.util.AttributeSet
 import android.view.View
 import android.view.WindowManager
 import android.widget.FrameLayout
+import androidx.annotation.RequiresApi
 import com.phstudio.darktheme.R
 
 class OverlayView @JvmOverloads constructor(
@@ -23,6 +25,7 @@ class OverlayView @JvmOverloads constructor(
     private val windowManager: WindowManager =
         ctx.getSystemService(Context.WINDOW_SERVICE) as WindowManager
 
+    @RequiresApi(Build.VERSION_CODES.O)
     private val layoutParams = WindowManager.LayoutParams(
         WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY,
         WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE

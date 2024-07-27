@@ -34,12 +34,7 @@ class OverlayService : Service() {
 
     @RequiresApi(Build.VERSION_CODES.N)
     override fun onCreate() {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) {
-        val notification = MyNotification.build(this)
-        startForeground(1, notification)
-        }
         overlayView = OverlayView.onCreate(this)
-
     }
 
     override fun onStartCommand(intent: Intent?, flags: Int, startId: Int): Int {
@@ -49,11 +44,13 @@ class OverlayService : Service() {
                     isActive = true
                     overlayView.show()
                 }
+
                 ACTION_HIDE -> {
                     isActive = false
                     overlayView.hide()
                     stopSelf()
                 }
+
                 else -> Toast.makeText(
                     applicationContext,
                     "Need action property to start ${OverlayService::class.java.simpleName}",

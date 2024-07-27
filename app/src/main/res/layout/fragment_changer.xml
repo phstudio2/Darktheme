@@ -1,73 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_marginStart="16dp"
     android:layout_marginEnd="16dp"
-    android:background="@color/design4"
-    android:gravity="center"
+    android:fillViewport="true"
     tools:context=".fragments.ChangerFragment">
 
-    <View
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="16dp"
-        android:background="@drawable/layout_text_background" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignTop="@+id/tvMode"
-        android:layout_alignBottom="@+id/btChanger"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="-16dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="-16dp"
-        android:background="@drawable/layout_text_time" />
-
-    <TextView
-        android:id="@+id/tvMode"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/givMode"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/layout_text"
-        android:padding="10dp"
-        android:text="@string/light_mode_active"
-        android:textAllCaps="false"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:backgroundTint="@null"
-        app:fontFamily="@font/ubuntu" />
+        android:background="@color/design4">
 
-    <pl.droidsonroids.gif.GifImageView
-        android:id="@+id/givMode"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginEnd="16dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitCenter"
-        android:src="@drawable/changer" />
+        <View
+            android:id="@+id/backgroundView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/layout_text_background"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/btChanger"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/givMode"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/layout_display_button"
-        android:fontFamily="@font/ubuntu"
-        android:padding="10dp"
-        android:text="@string/change_to_dark_mode"
-        android:textAllCaps="false"
-        android:textColor="@color/design6"
-        android:textSize="21sp"
-        android:textStyle="bold"
-        app:backgroundTint="@null" />
-</RelativeLayout>
+        <View
+            android:id="@+id/timeBackgroundView"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="-16dp"
+            android:layout_marginBottom="-16dp"
+            android:background="@drawable/layout_text_time"
+            app:layout_constraintTop_toTopOf="@id/tvMode"
+            app:layout_constraintBottom_toBottomOf="@id/btChanger"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <TextView
+            android:id="@+id/tvMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_text"
+            android:padding="10dp"
+            android:text="@string/light_mode_active"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/givMode"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:fontFamily="@font/ubuntu" />
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/givMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/changer"
+            app:layout_constraintBottom_toTopOf="@id/btChanger"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvMode" />
+
+        <Button
+            android:id="@+id/btChanger"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/layout_display_button"
+            android:fontFamily="@font/ubuntu"
+            android:padding="10dp"
+            android:text="@string/change_to_dark_mode"
+            android:textAllCaps="false"
+            android:textColor="@color/design6"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/givMode" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

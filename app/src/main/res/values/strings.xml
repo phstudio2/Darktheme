@@ -2,7 +2,7 @@
     <string name="app_name" translatable="false">Dark theme</string>
     <string name="app_package" translatable="false">com.phstudio.darktheme</string>
     <string name="developer_name" translatable="false">PH studio</string>
-    <string name="app_version" translatable="false">2.6</string>
+    <string name="app_version" translatable="false">2.7</string>
 
     <string name="about" translatable="false">https://phstudio2.github.io/</string>
     <string name="github" translatable="false">https://github.com/phstudio2</string>
